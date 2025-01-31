@@ -1,9 +1,39 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"FEMS Microbiol. Ecol.":
+  url: https://academic.oup.com/femsec
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"PLOS One":
+  url: https://journals.plos.org/plosone/
+  color: "#0085ca"
 
-"Vision":
+"PeerJ":
+  url: https://peerj.com/
   color: "#009f36"
+
+"Front. Nutr.":
+  url: https://www.frontiersin.org/journals/nutrition
+  color: "#0c6b7b"
+
+"Microbiol. Spectr.":
+  url: https://journals.asm.org/journal/spectrum
+  color: "#d83d33"
+
+"MBio":
+  url: https://journals.asm.org/journal/mbio
+  color: "#5b4c8b"
+
+"AAC":
+  url: https://journals.asm.org/journal/aac
+  color: "#e08c43"
+
+"PLOS Path.":
+  url: https://journals.plos.org/plospathogens/
+  color: "#cc3c42"
+
+"Front. Microbiol.":
+  url: https://www.frontiersin.org/journals/microbiology
+  color: "#77a3f5"
+
+"MSphere":
+  url: https://journals.asm.org/journal/msphere
+  color: "#75c7d6"
