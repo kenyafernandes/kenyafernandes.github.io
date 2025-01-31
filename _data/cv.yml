@@ -1,97 +1,59 @@
-- title: General Information
-  type: map
+- title: Experience
+  type: time_table
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - title: ARC DECRA Fellow
+      institution: The University of Sydney, Sydney, Australia
+      year: 2025
+      description:
+        - Description 1.
+    - title: Postdoctoral Research Fellow
+      institution: The University of Sydney, Sydney, Australia
+      year: 2021-2025
+      description:
+        - Description 1.
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: The University of Sydney, Sydney, Australia
+      year: 2020
       description:
         - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+      
+title: Honors and Awards
+type: time_table
+contents:
+  - year: 2025
+    items: 
+      - Superstar of STEM 2025-2026
+  - year: 2024
+    items:
+      - Women of Colour in STEM Rising Star Award Finalist, STEM Sisters
+      - Award for Best Poster, Joint Academic Microbiology Seminars 
+      - Award for Best Presentation, Federation of European Microbiology Societies
+      - Early Career Microbiologist Award, Australian Society for Microbiology NSW-ACT Branch  
+  - year: 2023
+    items:
+      - Early Career Researcher (0-3 Years) Award, Drug Discovery Initiative  
+      - Award for Best Oral Presentation, Asian Mycological Congress  
+      - Award for Best Presentation, Sydney Infectious Diseases Institute
+  - year: 2022
+    items:
+      - First Place & People’s Choice Awards for Best Presentation, Australian Bee Congress  
+      - People’s Choice Award for Best Presentation, Joint Academic Microbiology Seminars  
+  - year: 2021
+    items:
+      - Youth Scientist Award, International Lactoferrin Conference  
+  - year: 2019
+    items:
+      - Award for Best Student Presentation, Yeast Products & Discovery Meeting  
+      - Visualise Your Thesis First Place Winner, The University of Sydney  
+  - year: 2018
+    items:
+      - Colloquium Poster Prize, Marie Bashir Institute  
+      - Nancy Millis Student Award, Australian Society for Microbiology NSW-ACT Branch  
+  - year: 2016
+    items:
+      - Dr. Jack Warcup Memorial Prize, Australasian Mycological Society  
+      - Student Travel Grant, Australasian Mycological Society  
