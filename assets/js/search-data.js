@@ -79,15 +79,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-developing-reliable-processes-for-the-honey-industry-to-assess-active-honeys",
       
-        title: "a post with image galleries",
+        title: 'Developing reliable processes for the honey industry to assess active honeys <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "this is what included image galleries could look like",
+      description: "An article for the Professional Beekeepers website.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/photo-gallery/";
+          window.open("https://extensionaus.com.au/professionalbeekeepers/developing-reliable-processes-for-the-honey-industry-to-assess-active-honeys/", "_blank");
         
       },
     },{id: "post-australian-honeys-found-to-retain-antimicrobial-activity-for-more-than-15-years",
