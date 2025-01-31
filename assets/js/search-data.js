@@ -123,26 +123,26 @@ ninja.data = [{
           window.location.href = "/blog/2024/typograms/";
         
       },
-    },{id: "post-a-post-that-can-be-cited",
+    },{id: "post-do-healthy-bees-make-better-honey",
       
-        title: "a post that can be cited",
+        title: 'Do healthy bees make better honey? <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "this is what a post that can be cited looks like",
+      description: "An article for the Professional Beekeepers website.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/post-citation/";
+          window.open("https://extensionaus.com.au/professionalbeekeepers/do-healthy-bees-make-better-honey/", "_blank");
         
       },
-    },{id: "post-a-post-with-pseudo-code",
+    },{id: "post-australian-ant-honey-inhibits-tough-pathogens-new-research-shows",
       
-        title: "a post with pseudo code",
+        title: 'Australian ant honey inhibits tough pathogens, new research shows <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "this is what included pseudo code could look like",
+      description: "An article for The Conversation.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/pseudocode/";
+          window.open("https://theconversation.com/australian-ant-honey-inhibits-tough-pathogens-new-research-shows-209271", "_blank");
         
       },
     },{id: "post-how-honey-contributes-to-bee-and-hive-health",
