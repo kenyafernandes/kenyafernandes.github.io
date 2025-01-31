@@ -1,0 +1,44 @@
+- name: Dr. Kenya Fernandes
+  role: Group Leader
+  image: /assets/img/kenya_fernandes.jpg
+  tag: current
+
+- name: Jasmin Li
+  role: PhD Student
+  image: /assets/img/jasmin_li.jpg
+  tag: current
+
+- name: Dr. Yu-Wen Lai
+  role: Postdoctoral Researcher
+  image: /assets/img/yuwen_lai.jpg
+  tag: current
+
+- name: Andrew Dong
+  role: Research Assistant
+  image: /assets/img/andrew_dong.jpg
+  tag: current
+
+- name: Julie Lim
+  role: Senior Research Officer
+  image: /assets/img/andrew_dong.jpg
+  tag: current
+
+- name: Asia Lim
+  role: Honours Student
+  image: /assets/img/asia_lim.jpg
+  tag: past
+
+- name: Wen Xuan Ho
+  role: Honours Student
+  image: /assets/img/wenxuan_ho.jpg
+  tag: past
+
+- name: Bridie Stanfield
+  role: Honours Student
+  image: /assets/img/bridie_stanfield.jpg
+  tag: past
+
+- name: Daniel Susantio
+  role: Honours Student
+  image: /assets/img/daniel_susantio.jpg
+  tag: past
