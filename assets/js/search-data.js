@@ -134,70 +134,26 @@ ninja.data = [{
           window.location.href = "/blog/2024/post-citation/";
         
       },
-    },{id: "post-a-post-with-pseudo-code",
+    },{id: "post-how-honey-contributes-to-bee-and-hive-health",
       
-        title: "a post with pseudo code",
+        title: 'How honey contributes to bee and hive health <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "this is what included pseudo code could look like",
+      description: "An article for the Professional Beekeepers website.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/pseudocode/";
+          window.open("https://extensionaus.com.au/professionalbeekeepers/how-honey-contributes-to-bee-and-hive-health/", "_blank");
         
       },
-    },{id: "post-a-post-with-code-diff",
+    },{id: "post-the-many-antimicrobial-components-of-honey",
       
-        title: "a post with code diff",
+        title: 'The many antimicrobial components of honey <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "this is how you can display code diffs",
+      description: "An article for the Professional Beekeepers website.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/code-diff/";
-        
-      },
-    },{id: "post-a-post-with-vega-lite",
-      
-        title: "a post with vega lite",
-      
-      description: "this is what included vega lite code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/vega-lite/";
-        
-      },
-    },{id: "post-a-post-with-geojson",
-      
-        title: "a post with geojson",
-      
-      description: "this is what included geojson code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/geojson-map/";
-        
-      },
-    },{id: "post-a-post-with-echarts",
-      
-        title: "a post with echarts",
-      
-      description: "this is what included echarts code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/echarts/";
-        
-      },
-    },{id: "post-a-post-with-chart-js",
-      
-        title: "a post with chart.js",
-      
-      description: "this is what included chart.js code could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/chartjs/";
+          window.open("https://extensionaus.com.au/professionalbeekeepers/the-many-antimicrobial-components-of-honey/", "_blank");
         
       },
     },{id: "post-displaying-external-posts-on-your-al-folio-blog",
