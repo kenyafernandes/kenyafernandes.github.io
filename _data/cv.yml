@@ -21,9 +21,9 @@
       description:
         - Description 1.
       
-title: Honors and Awards
-type: time_table
-contents:
+- title: Honors and Awards
+  type: time_table
+  contents:
   - year: 2025
     items: 
       - Superstar of STEM 2025-2026
