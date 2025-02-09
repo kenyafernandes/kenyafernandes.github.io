@@ -28,6 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a microbiologist studying how microbes shape the health of our environment, pollinators, and even humans. My research explores how bees and microbes interact and what that means for pollinator survival, ecosystems, and food security. I also work on finding new ways to fight fungal infections, especially by discovering natural compounds that can enhance existing treatments. I’m particularly interested in honey - its antimicrobial and medicinal potential, and its deep connection to bee health.
+I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystems, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health. I’m particularly interested in our native bees, their vital role in maintaining biodiversity, and the traditional medicinal use of their honey by Indigenous communities.
+
+Alongside my research on bees, I also focus on drug discovery to tackle fungal infections. I explore natural compounds that could enhance current treatments, offering new options for fighting resistant fungal strains. My work investigates how fungi impact human health, with the goal of developing better solutions for treating fungal infections.
 
 Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. Through storytelling and outreach, I hope to inspire people to appreciate and protect our rich biodiversity.
