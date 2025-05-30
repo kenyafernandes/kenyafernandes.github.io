@@ -1,3 +1,11 @@
+"AEM":
+  url: https://journals.asm.org/journal/aem
+  color: "#145a32"
+
+"Microbiol. Austr.":
+  url: https://www.publish.csiro.au/ma
+  color: "#ba1c1c"
+
 "FEMS Microbiol. Ecol.":
   url: https://academic.oup.com/femsec
   color: "#00369f"
