@@ -25,13 +25,13 @@ Whether it's a classroom discussion, a beekeeping meeting, or a science festival
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=JMoHPeLsAK8" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6S_SLLPco10?si=NBSedNLcc8NCo_F3" allowfullscreen></iframe>
         </div>
         <p class="video-caption text-center">My one minute elevator pitch.</p>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="[https://www.youtube.com/embed/l63anKzFk4M](https://www.youtube.com/embed/6S_SLLPco10)" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JMoHPeLsAK8?si=oSFt-jeclunt3pMk" allowfullscreen></iframe>
         </div>
         <p class="video-caption text-center">A short video I made about my PhD research on the human fungal pathogen Cryptococcus.</p>
     </div>
@@ -39,7 +39,7 @@ Whether it's a classroom discussion, a beekeeping meeting, or a science festival
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eastershow2025.jpg" title="Science in the Scrub 2024" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eastershow2025.jpg" title="Sydney Royal Easter Show 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
