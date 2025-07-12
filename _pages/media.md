@@ -35,9 +35,3 @@ nav_order: 4
         <p class="video-caption text-center">Sky News Live Interview on Honeypot Ant Honey.</p>
     </div>
 </div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/logos.jpg" %}
-    </div>
-</div>
