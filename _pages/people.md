@@ -11,7 +11,7 @@ horizontal: false
 
 <div class="people">
   {% assign current_people = site.data.people | where: "tag", "current" %}
-  {% assign past_people = site.data.people | where: "tag", "past" %}
+  {% assign past_people = site.data.people | where: "tag", "past" %} 
 
  <!-- Current Section -->
 <a id="current" href=".#current">
