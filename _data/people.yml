@@ -4,22 +4,32 @@
   tag: current
 
 - name: Jasmin Li
-  role: PhD Student
+  role: PhD Student (Primary Supervisor; with Ros Gloag, Erin Shanahan)
   image: /assets/img/jasmin_li.jpg
   tag: current
 
 - name: Evie Clay
-  role: PhD Student (Macquarie Uni)
+  role: PhD Student (Co-Supervisor; with Amy Cain, Hue Dinh)
   image: /assets/img/evie_clay.jpg
   tag: current
 
-  - name: Julie Lim
+- name: Kat Schell
+  role: PhD Student (Co-Supervisor; with Erin Shanahan, Nural Cokcetin)
+  image: /assets/img/kat_schell.jpg
+  tag: current
+
+ - name: Clare Price
+  role: Honours Student (Primary Supervisor; with Ros Gloag)
+  image: /assets/img/clare_price.jpg
+  tag: current
+  
+- name: Julie Lim
   role: Senior Research Officer
   image: /assets/img/julie_lim.jpg
   tag: current
   
 - name: Andrew Dong
-  role: Research Assistant
+  role: Research Officer
   image: /assets/img/andrew_dong.jpg
   tag: current
 
@@ -29,21 +39,21 @@
   tag: past
 
 - name: Asia Lim
-  role: Honours Student
+  role: Honours Student (Primary Supervisor; with Dee Carter)
   image: /assets/img/asia_lim.jpg
   tag: past
 
 - name: Wen Xuan Ho
-  role: Honours Student
+  role: Honours Student (Primary Supervisor; with Dee Carter)
   image: /assets/img/wenxuan_ho.jpg
   tag: past
 
 - name: Bridie Stanfield
-  role: Honours Student
+  role: Honours Student (Co-Supervisor; with Dee Carter)
   image: /assets/img/bridie_stanfield.jpg
   tag: past
 
 - name: Daniel Susantio
-  role: Honours Student
+  role: Honours Student (Co-Supervisor; with Dee Carter)
   image: /assets/img/daniel_susantio.jpg
   tag: past
