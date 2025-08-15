@@ -11,17 +11,21 @@
   tag: current
 
 - name: Evie Clay
-  role: PhD Student (Co-Supervisor; with Amy Cain, Hue Dinh)
+  role: PhD Student
+  project: Uncovering the antifungal potential of CBD derivatives
+  supervisors: Co-Supervisor; with Amy Cain, Hue Dinh
   image: /assets/img/evie_clay.jpg
   tag: current
 
 - name: Kat Schell
-  role: PhD Student (Co-Supervisor; with Erin Shanahan, Nural Cokcetin)
+  role: PhD Student
+  project: Investigating the gut therapeutic potential of Australian honey as a prebiotic and anti-inflammatory
+  supervisors: Co-Supervisor; with Erin Shanahan, Nural Cokcetin, Dee Carter
   image: /assets/img/kat_schell.jpg
   tag: current
 
  - name: Clare Price
-  role: Honours Student (Primary Supervisor; with Ros Gloag)
+  role: Honours Student
   image: /assets/img/clare_price.jpg
   tag: current
   
@@ -41,21 +45,21 @@
   tag: past
 
 - name: Asia Lim
-  role: Honours Student (Primary Supervisor; with Dee Carter)
+  role: Honours Student
   image: /assets/img/asia_lim.jpg
   tag: past
 
 - name: Wen Xuan Ho
-  role: Honours Student (Primary Supervisor; with Dee Carter)
+  role: Honours Student
   image: /assets/img/wenxuan_ho.jpg
   tag: past
 
 - name: Bridie Stanfield
-  role: Honours Student (Co-Supervisor; with Dee Carter)
+  role: Honours Student
   image: /assets/img/bridie_stanfield.jpg
   tag: past
 
 - name: Daniel Susantio
-  role: Honours Student (Co-Supervisor; with Dee Carter)
+  role: Honours Student
   image: /assets/img/daniel_susantio.jpg
   tag: past
