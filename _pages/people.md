@@ -24,7 +24,18 @@ horizontal: false
         <img src="{{ person.image }}" alt="{{ person.name }}" style="width: 150px; height: 150px; object-fit: cover; margin-bottom: 15px;">
         <h3 style="font-size: 16px; font-weight: normal;">{{ person.name }}</h3> <!-- Reduced font size for name -->
         <p class="role">{{ person.role }}</p>
-        <p>{{ person.bio }}</p>
+
+{% if person.project %}
+  <p><strong>Project:</strong> {{ person.project }}</p>
+{% endif %}
+
+{% if person.supervisors %}
+  <p><strong>Supervisors:</strong> {{ person.supervisors }}</p>
+{% endif %}
+
+{% if person.bio %}
+  <p>{{ person.bio }}</p>
+{% endif %}
       </div>
     {% endfor %}
   </div>
