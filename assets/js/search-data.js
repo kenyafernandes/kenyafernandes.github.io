@@ -196,7 +196,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/kenya-fernandes-52a845320/", "_blank");
+          window.open("https://www.linkedin.com/in/drkenyafernandes/", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -206,13 +206,6 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-2912-4360", "_blank");
         },
       },{
-        id: 'social-researchgate',
-        title: 'ResearchGate',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.researchgate.net/profile/Kenya-Fernandes/", "_blank");
-        },
-      },{
         id: 'social-work',
         title: 'Work',
         section: 'Socials',
@@ -220,11 +213,11 @@ ninja.data = [{
           window.open("https://www.sydney.edu.au/science/about/our-people/academic-staff/kenya-fernandes.html", "_blank");
         },
       },{
-        id: 'social-x',
-        title: 'X',
+        id: 'social-youtube',
+        title: 'YouTube',
         section: 'Socials',
         handler: () => {
-          window.open("https://twitter.com/KenyaFernandes", "_blank");
+          window.open("https://youtube.com/@youtube.com/@drkenyafernandes", "_blank");
         },
       },{
       id: 'light-theme',
