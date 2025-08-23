@@ -43,3 +43,18 @@ Whether it's a classroom discussion, a beekeeping meeting, or a science festival
     </div>
 </div>
 
+<div class="row">
+    <div class="col-sm-6 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/woolahra2025.jpg" title="Woollahra Library Meet-A-Scientist 2025" class="img-fluid rounded z-depth-1" %}
+        <div class="caption text-center mt-2">
+            Me at the "Speed Meet-A-Scientist" event at Woolahra Library as part of National Science Week 2025.
+        </div>
+    </div>
+    <div class="col-sm-6 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/forestville2025.jpg" title="Forestville Library Science Fair 2025" class="img-fluid rounded z-depth-1" %}
+        <div class="caption text-center mt-2">
+            Me at the Forestville Library Science Fair as part of National Science Week 2025.
+        </div>
+    </div>
+</div>
+
