@@ -6,7 +6,7 @@ description: Science Communication
 nav: true
 nav_order: 3
 ---
-<div class="row">
+<div class="row"> 
     <div class="col-sm-6 mt-3">
         {% include figure.liquid loading="eager" path="assets/img/sciencescrub2024.jpg" title="Science in the Scrub 2024" class="img-fluid rounded z-depth-1" %}
         <div class="caption text-center mt-2">
