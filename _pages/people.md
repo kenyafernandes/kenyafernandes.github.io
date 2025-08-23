@@ -21,16 +21,18 @@ horizontal: false
     {% for person in current_people %}
       <div class="col">
         <div class="team-member card h-100 text-center p-3 shadow-sm">
-          <img src="{{ person.image }}" alt="{{ person.name }}" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit:cover;">
+          <div class="d-flex justify-content-center">
+            <img src="{{ person.image }}" alt="{{ person.name }}" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit:cover;">
+          </div>
           <h3 class="card-title" style="font-size: 18px;">{{ person.name }}</h3>
           <p class="role text-muted">{{ person.role }}</p>
 
           {% if person.project %}
-            <p class="card-text"><strong>Project:</strong> {{ person.project }}</p>
+            <p class="card-text" style="font-size: 14px;"><strong>Project:</strong> {{ person.project }}</p>
           {% endif %}
 
           {% if person.supervisors %}
-            <p class="card-text"><strong>Supervisors:</strong> {{ person.supervisors }}</p>
+            <p class="card-text" style="font-size: 14px;"><strong>Supervisors:</strong> {{ person.supervisors }}</p>
           {% endif %}
 
           {% if person.bio %}
@@ -49,16 +51,18 @@ horizontal: false
     {% for person in past_people %}
       <div class="col">
         <div class="team-member card h-100 text-center p-3 shadow-sm">
-          <img src="{{ person.image }}" alt="{{ person.name }}" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit:cover;">
+          <div class="d-flex justify-content-center">
+            <img src="{{ person.image }}" alt="{{ person.name }}" class="rounded-circle mb-3" style="width:150px; height:150px; object-fit:cover;">
+          </div>
           <h3 class="card-title" style="font-size: 18px;">{{ person.name }}</h3>
           <p class="role text-muted">{{ person.role }}</p>
 
           {% if person.project %}
-            <p class="card-text"><strong>Project:</strong> {{ person.project }}</p>
+            <p class="card-text" style="font-size: 14px;"><strong>Project:</strong> {{ person.project }}</p>
           {% endif %}
 
           {% if person.supervisors %}
-            <p class="card-text"><strong>Supervisors:</strong> {{ person.supervisors }}</p>
+            <p class="card-text" style="font-size: 14px;"><strong>Supervisors:</strong> {{ person.supervisors }}</p>
           {% endif %}
 
           {% if person.bio %}
