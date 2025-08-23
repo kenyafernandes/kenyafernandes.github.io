@@ -5,21 +5,29 @@
 
 - name: Jasmin Li
   role: PhD Student
+  project: The beneficial relationship between fungi and Australian stingless bees
+  supervisors: Kenya Fernandes, Ros Gloag, Erin Shanahan
   image: /assets/img/jasmin_li.jpg
   tag: current
 
 - name: Evie Clay
   role: PhD Student
+  project: Uncovering the antifungal potential of CBD derivatives
+  supervisors: Amy Cain, Hue Dinh, Kenya Fernandes
   image: /assets/img/evie_clay.jpg
   tag: current
 
 - name: Kat Schell
   role: PhD Student
+  project: Investigating the gut therapeutic potential of Australian honey as a prebiotic and anti-inflammatory
+  supervisors: Erin Shanahan, Nural Cokcetin, Dee Carter, Kenya Fernandes
   image: /assets/img/kat_schell.jpg
   tag: current
 
 - name: Clare Price
   role: Honours Student
+  project: Characterising the fungus-feeding behaviour of a native bee mite
+  supervisors: Kenya Fernandes, Ros Gloag
   image: /assets/img/clare_price.jpg
   tag: current
   
@@ -33,27 +41,30 @@
   image: /assets/img/andrew_dong.jpg
   tag: current
 
-- name: Dr. Yu-Wen Lai
-  role: Postdoctoral Researcher
-  image: /assets/img/yuwen_lai.jpg
-  tag: past
-
 - name: Asia Lim
   role: Honours Student
+  project: Investigating the anti-dermatophyte activity of NSW honeys
+  supervisors: Kenya Fernandes, Dee Carter
   image: /assets/img/asia_lim.jpg
   tag: past
 
 - name: Wen Xuan Ho
   role: Honours Student
+  project: An environmentally friendly fungicide made from propolis
+  supervisors: Kenya Fernandes, Dee Carter
   image: /assets/img/wenxuan_ho.jpg
   tag: past
 
 - name: Bridie Stanfield
   role: Honours Student
+  project: Examining the relationship between hive stress, honey activity, and the honey bee gut microbiome
+  supervisors: Kenya Fernandes, Dee Carter
   image: /assets/img/bridie_stanfield.jpg
   tag: past
 
 - name: Daniel Susantio
   role: Honours Student
+  project: Proof-of-concept bioassay for on-site honey activity testing
+  supervisors: Kenya Fernandes, Dee Carter
   image: /assets/img/daniel_susantio.jpg
   tag: past
