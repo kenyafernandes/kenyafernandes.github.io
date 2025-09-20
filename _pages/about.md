@@ -49,34 +49,15 @@ Beyond the lab, I’m passionate about making science exciting and accessible to
   <div class="col-sm-3 mb-3"><img src="images/tocal.jpg" alt="Sampling from honey bee colonies" class="img-fluid"></div>
 </div>
 
-<!-- Videos: 1 row of 3 -->
-<div class="row mt-5">
-  <div class="col-sm-4 mb-3">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_1" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="col-sm-4 mb-3">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://youtu.be/PzHeIt-X8Xo?si=74RIoMpDvDZ0dqL_" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="col-sm-4 mb-3">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VIDEO_ID_3" allowfullscreen></iframe>
-    </div>
-  </div>
-</div>
-
 <!-- Big Link Boxes -->
 <div class="row mt-5">
   <div class="col-sm-4 mb-3">
-    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#FF0000; color:white; text-decoration:none;">YouTube</a>
+    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none;">YouTube</a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#C13584; color:white; text-decoration:none;">Instagram</a>
+    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none;">Instagram</a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="/bnbeeproject/" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#FFB300; color:white; text-decoration:none;">BnBee Project</a>
+    <a href="/bnbeeproject/" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none;">BnBee Project</a>
   </div>
 </div>
