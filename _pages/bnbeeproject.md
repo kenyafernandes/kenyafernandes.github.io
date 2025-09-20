@@ -2,13 +2,13 @@
 layout: page
 title: The BnBee Project
 permalink: /bnbeeproject/
-description: Hotels for solitary native bees
+description: 
 nav: true
 nav_order: 3
 ---
 
 <div class="row justify-content-center mt-3">
-    <div class="col-sm-8">
+    <div class="col-12">
         {% include figure.liquid loading="eager" path="assets/img/bnbeeproject.jpg" title="The BnBee Project: Hotels for Pollinators" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
