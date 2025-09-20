@@ -10,8 +10,8 @@ nav_order: 4
 <style>
   .year-heading {
     background-color: #B510B3;
-    color: white;
-    font-size: 1rem; /* adjust smaller if needed */
+    color: white !important; /* force white text */
+    font-size: 0.9rem; /* smaller than default */
     padding: 5px;
     border-radius: 5px;
   }
@@ -33,7 +33,7 @@ nav_order: 4
 </div>
 
 <div class="row justify-content-sm-center">
-<div class="col-sm-6 mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/B9LquP7Iqj8?si=ta4KaYisQ9RYoUHB" allowfullscreen></iframe>
         </div>
@@ -48,15 +48,15 @@ nav_order: 4
 </div>
 
 <div class="row mt-5">
-  <div class="col-sm-6">
-    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DJ259HFzkn3/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:540px; min-width:326px; padding:0; width:100%;">
-    </blockquote>
-  </div>
+    <div class="col-sm-6">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DJ259HFzkn3/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:540px; min-width:326px; padding:0; width:100%;">
+        </blockquote>
+    </div>
 
-  <div class="col-sm-6">
-    <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DLlncHUv6tA/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:540px; min-width:326px; padding:0; width:100%;">
-    </blockquote>
-  </div>
+    <div class="col-sm-6">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DLlncHUv6tA/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:540px; min-width:326px; padding:0; width:100%;">
+        </blockquote>
+    </div>
 </div>
 
 <script async src="//www.instagram.com/embed.js"></script>
@@ -67,6 +67,7 @@ nav_order: 4
   <div class="card mt-3 p-3">
     <h3 class="card-title font-weight-medium year-heading">2025</h3>
     <ul>
+      <li>Eastside FM, aired live 01 Sep 2025 at 4:10pm</li>
       <li>Joy Drive Radio, aired live 10 Jul 2025 at 4:15pm: <a href="https://joy.org.au/joydrive/2025/07/11/dr-kenya-fernandes-the-stingless-bees-that-might-save-modern-medicine/">“The stingless bees that might save modern medicine”</a></li>
       <li>KidsNews, 29 Jun 2025: <a href="https://www.kidsnews.com.au/health/honey-from-sugarbag-bees-found-to-have-antimicrobial-properties/news-story/51709389048f9159dc5c94abd652aa9a">“Honey from sugarbag bees found to have antimicrobial properties”</a></li>
       <li>ABC Radio Brisbane, aired live 23 Jun 2025 at 3:20pm</li>
