@@ -21,12 +21,7 @@ nav_order: 3
     </div>
 </div>
 
-I'm passionate about making science accessible and engaging for everyone - whether it's for school students, industry leaders, or the general community! My talks are designed to be interactive, informative, and tailored to each audience.
-
-I've had the opportunity to present at a range of events, from local gatherings to international conferences, covering topics such as honey and bee products, the ecological relationships between micobes and bees, fungi in health and disease, and drug discovery.
-
-Whether it's a classroom discussion, a beekeeping meeting, or a science festival, I love sharing research in a way that sparks curiosity and conversation. If you're interested in a talk or a workshop, feel free to reach out - my contact details can be found on the About page.
-
+I'm passionate about making science accessible and engaging for everyone. Whether it's a community event, a beekeeping meeting, or a science festival, I love sharing research in a way that sparks curiosity and conversation.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
