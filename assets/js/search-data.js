@@ -35,7 +35,7 @@ ninja.data = [{
           description: "Engaging science for students!",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/schools/";
+            window.location.href = "/schoolvisits/";
           },
         },{id: "nav-media",
           title: "Media",
