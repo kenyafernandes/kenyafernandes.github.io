@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-the-bnbee-project",
           title: "The BnBee Project",
-          description: "Hotels for solitary native bees",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/bnbeeproject/";
