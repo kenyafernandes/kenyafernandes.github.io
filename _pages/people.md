@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-description: Current and past lab members.
+description: Current and past lab members
 nav: true
 nav_order: 5
 display_categories: [current, past]
