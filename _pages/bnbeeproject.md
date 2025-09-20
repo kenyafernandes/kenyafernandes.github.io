@@ -252,17 +252,6 @@ nav_order: 3
 The BnBee Project is all about creating safe, welcoming homes for solitary native bees. These bees are essential pollinators in our gardens, schools, and natural ecosystems, but many species struggle to find suitable nesting sites due to habitat loss.
 </p>
 
-<p>
-Our bee hotels provide a variety of nesting options, from bamboo tubes and drilled logs to small cavities filled with natural materials. Each structure is carefully designed to mimic natural nesting conditions, helping solitary bees thrive while also giving people the chance to observe and learn about their fascinating behaviors.
-</p>
-
-<p>
-Installing a bee hotel is simple and rewarding. They can be placed in gardens, school grounds, or community spaces, and they support biodiversity by providing shelter for bees that might otherwise struggle to reproduce. Watching these industrious pollinators use the hotels is not only educational, but also a way to engage with local ecology in a hands-on way.
-</p>
-
-<p>
-Whether you're a teacher, a gardener, or just curious about native bees, the BnBee Project encourages everyone to participate in creating pollinator-friendly spaces. By giving solitary bees a place to live, we help support healthy ecosystems, improve pollination in our gardens, and inspire the next generation of nature enthusiasts.
-</p>
 
 <div class="buzz-fact">
     <h4>Did You Know?</h4>
@@ -429,12 +418,12 @@ Whether you're a teacher, a gardener, or just curious about native bees, the BnB
         <h4>🔗 Learn More</h4>
         <ul>
             <li><a href="/publications/">Research Publications</a></li>
-            <li><a href="https://www.anbrc.org.au/">Australian Native Bee Research Centre</a></li>
-            <li><a href="https://www.environment.gov.au/biodiversity/threatened/communities/pubs/90-conservation-advice.pdf">Conservation Guidelines</a></li>
+            <li><a href="https://www.wheenbeefoundation.org.au/about-bees-pollination/australian-native-bees/">Australian Native Bees - Wheen Bee Foundation</a></li>
+            <li><a href="https://www.krg.nsw.gov.au/Environment/Your-local-environment/Wildlife/Living-with-wildlife/Bee-hotels">Bee Hotels - Ku-ring-gai Council</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <h4>📞 Workshop Bookings</h4>
-        <p>Interested in bringing the BnBee Project to your school or community group? <a href="/contact/">Contact me</a> to discuss educational workshop opportunities.</p>
+        <p>Interested in bringing the BnBee Project to your school or community group? <a href="/about/">Contact me</a> to discuss educational workshop opportunities.</p>
     </div>
 </div>
