@@ -15,7 +15,7 @@ profile:
     Sydney, NSW, Australia
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
@@ -34,32 +34,18 @@ Alongside my research on bees, I also focus on drug discovery to tackle fungal i
 
 Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. 
 
-<!-- Big Link Boxes (now ABOVE the picture) -->
-<div class="row mt-4">
-  <div class="col-12 mb-3">
-    <a href="https://www.youtube.com/@drkenyafernandes" 
-       class="btn btn-block" 
-       style="padding: 20px 0; font-size: 1.1em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none; text-transform:none;">
-       YouTube
-    </a>
-  </div>
-  <div class="col-12 mb-3">
-    <a href="https://www.instagram.com/drkenyafernandes" 
-       class="btn btn-block" 
-       style="padding: 20px 0; font-size: 1.1em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none; text-transform:none;">
-       Instagram
-    </a>
-  </div>
-  <div class="col-12 mb-3">
-    <a href="https://www.linkedin.com/in/kenyafernandes" 
-       class="btn btn-block" 
-       style="padding: 20px 0; font-size: 1.1em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none; text-transform:none;">
-       LinkedIn
-    </a>
-  </div>
-</div>
+<div class="col-sm-6 mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PzHeIt-X8Xo?si=etajDLaWsOhWfmaH" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption text-center">ABC News Feature on Native Bee Honey.</p>
+    </div>
 
-<!-- About Picture BELOW -->
+<div class="col-sm-6">
+        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/DLlncHUv6tA/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: auto; max-width:540px; min-width:326px; padding:0; width:100%;">
+        </blockquote>
+    </div>
+    
 <div class="row justify-content-center mt-4">
     <div class="col-12">
         {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1" %}
