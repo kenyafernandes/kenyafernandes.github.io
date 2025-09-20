@@ -1,7 +1,7 @@
 ---
 layout: page
 title: School Visits
-permalink: /schools/
+permalink: /schoolvisits/
 description: Engaging science for students!
 nav: true
 nav_order: 3
