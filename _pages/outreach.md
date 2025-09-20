@@ -2,7 +2,7 @@
 layout: page
 title: Outreach
 permalink: /outreach/
-description: Spreading the word!
+description: Spreading the word
 nav: true
 nav_order: 3
 ---
