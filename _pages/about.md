@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-permalink: /about
+permalink: /
 subtitle: Microbe, Bee, and Honey Researcher<br>
           ARC DECRA Fellow<br>
           Superstar of STEM 2025-2026
