@@ -255,40 +255,32 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
 
 <div class="buzz-fact">
     <h4>Did You Know?</h4>
-    <p>Australia has over <strong>2,000 species</strong> of native bees! Most of them are solitary bees that don't live in hives like honeybees. They're super important pollinators that help our plants grow and produce food!</p>
+    <p>Australia has over <strong>2,000 species</strong> of native bees! Most of them are solitary bees that don't live in colonies like honey bees. They're super important pollinators that help our plants grow and produce food!</p>
 </div>
 
 <div class="workshop-section">
-    <h3>🎓 Educational Workshops</h3>
-    <p class="text-center">Join Dr. Kenya Fernandes for hands-on learning experiences that explore pollinators, biodiversity, and conservation!</p>
-    
+    <h3>Workshops</h3>
+       
     <div class="activity-grid">
         <div class="activity-card">
-            <span class="activity-emoji">🏨</span>
+            <span class="activity-emoji">🐝</span>
             <h4>Build Bee Hotels</h4>
             <p>Create cozy homes for native bees using natural materials like bamboo. These hotels give solitary bees safe places to lay their eggs!</p>
         </div>
         
         <div class="activity-card">
-            <span class="activity-emoji">💣</span>
-            <h4>Make Seed Bombs</h4>
+            <span class="activity-emoji">🌱</span>
+            <h4>Make Native Seed Bombs</h4>
             <p>Mix clay, soil, and native flower seeds to create "seed bombs" that will grow into beautiful bee-friendly gardens!</p>
-        </div>
-        
-        <div class="activity-card">
-            <span class="activity-emoji">🔬</span>
-            <h4>Learn Conservation Science</h4>
-            <p>Discover how bees and plants work together, why biodiversity matters, and how we can help protect our environment!</p>
         </div>
     </div>
 </div>
 
 <div class="workshop-section">
-    <h3>🏠 How to Use Your Native Bee Hotel</h3>
-    <p>Native bee hotels are small structures made from natural materials like bamboo, designed to provide nesting spaces for solitary native bees. These bees are important pollinators but often struggle to find suitable places to lay their eggs.</p>
-    
+    <h3>How to Use Your Native Bee Hotel</h3>
+       
     <div class="instructions-box">
-        <h4>🏠 Setting Up Your Bee Hotel</h4>
+      
         <div class="step">
             <div class="step-number">1</div>
             <div>
@@ -321,12 +313,10 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
 </div>
 
 <div class="workshop-section">
-    <h3>🌱 How to Use Your Native Flower Seed Bomb</h3>
-    <p>A seed bomb is a small ball made from clay, soil, and native flower seeds. Plant them to grow food sources for your local native bees.</p>
-    
+    <h3>How to Use Your Native Flower Seed Bomb</h3>
+      
     <div class="instructions-box">
-        <h4>🌱 Planting Instructions</h4>
-        <div class="step">
+            <div class="step">
             <div class="step-number">1</div>
             <div>
                 <strong>Choose a bare soil spot in your garden or use a pot</strong><br>
@@ -395,11 +385,6 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
             <p>Some native bees are "buzz pollinators" - they grab flowers and vibrate their flight muscles to shake out the pollen!</p>
         </div>
         <div class="fact-item">
-            <span class="fact-emoji">🦸</span>
-            <h5>Solitary Superheroes</h5>
-            <p>Most native bees work alone, but they're incredibly efficient - one leafcutter bee does the work of 120 honeybees!</p>
-        </div>
-        <div class="fact-item">
             <span class="fact-emoji">🌈</span>
             <h5>Rainbow Colors</h5>
             <p>Native bees come in amazing colors - metallic green, bright blue, fuzzy orange, and striped black and white!</p>
@@ -409,7 +394,7 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
 
 <div class="conservation-message">
     <h4>Why Native Bees Need Our Help</h4>
-    <p>Native bees are losing their homes due to habitat loss, urban development, and changes in land use. By building bee hotels and planting native flowers, we create safe spaces for these amazing pollinators. Every hotel and every flower makes a difference in keeping our ecosystems healthy and our food systems strong.</p>
+    <p>Native bees are losing their homes due to habitat loss, urban development, and changes in land use. By building bee hotels and planting native flowers, we create safe spaces for these amazing pollinators.</p>
     <p>When we support native bees, we support biodiversity, help maintain healthy plant communities, and contribute to the resilience of our natural environment.</p>
 </div>
 
@@ -417,13 +402,12 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
     <div class="col-md-6">
         <h4>🔗 Learn More</h4>
         <ul>
-            <li><a href="/publications/">Research Publications</a></li>
             <li><a href="https://www.wheenbeefoundation.org.au/about-bees-pollination/australian-native-bees/">Australian Native Bees - Wheen Bee Foundation</a></li>
             <li><a href="https://www.krg.nsw.gov.au/Environment/Your-local-environment/Wildlife/Living-with-wildlife/Bee-hotels">Bee Hotels - Ku-ring-gai Council</a></li>
         </ul>
     </div>
     <div class="col-md-6">
         <h4>📞 Workshop Bookings</h4>
-        <p>Interested in bringing the BnBee Project to your school or community group? <a href="/about/">Contact me</a> to discuss educational workshop opportunities.</p>
+        <p>Interested in bringing the BnBee Project to your school? My contact details can be found on the About page.
     </div>
 </div>
