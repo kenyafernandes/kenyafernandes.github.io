@@ -248,15 +248,12 @@ nav_order: 3
     </div>
 </div>
 
-<p>
-The BnBee Project is all about creating safe, welcoming homes for solitary native bees. These bees are essential pollinators in our gardens, schools, and natural ecosystems, but many species struggle to find suitable nesting sites due to habitat loss.
-</p>
-
-
-<div class="buzz-fact">
-    <h4>Did You Know?</h4>
-    <p>Australia has over <strong>2,000 species</strong> of native bees! Most of them are solitary bees that don't live in colonies like honey bees. They're super important pollinators that help our plants grow and produce food!</p>
+<div class="conservation-message">
+    <h4>Why Native Bees Need Our Help</h4>
+    <p>Native bees are losing their homes due to habitat loss, urban development, and changes in land use. By building bee hotels and planting native flowers, we create safe spaces for these amazing pollinators.</p>
+    <p>When we support native bees, we support biodiversity, help maintain healthy plant communities, and contribute to the resilience of our natural environment.</p>
 </div>
+
 
 <div class="workshop-section">
     <h3>Workshops</h3>
@@ -392,11 +389,7 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
     </div>
 </div>
 
-<div class="conservation-message">
-    <h4>Why Native Bees Need Our Help</h4>
-    <p>Native bees are losing their homes due to habitat loss, urban development, and changes in land use. By building bee hotels and planting native flowers, we create safe spaces for these amazing pollinators.</p>
-    <p>When we support native bees, we support biodiversity, help maintain healthy plant communities, and contribute to the resilience of our natural environment.</p>
-</div>
+
 
 <div class="row mt-4">
     <div class="col-md-6">
@@ -408,6 +401,5 @@ The BnBee Project is all about creating safe, welcoming homes for solitary nativ
     </div>
     <div class="col-md-6">
         <h4>📞 Workshop Bookings</h4>
-        <p>Interested in bringing the BnBee Project to your school? My contact details can be found on the About page.
-    </div>
-</div>
+        <p>Interested in bringing the BnBee Project to your school? My contact details can be found on the About page.</p>p>
+
