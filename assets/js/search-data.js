@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-outreach",
           title: "Outreach",
-          description: "Spreading the word!",
+          description: "Spreading the word",
           section: "Navigation",
           handler: () => {
             window.location.href = "/outreach/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-media",
           title: "Media",
-          description: "My research in the news!",
+          description: "My research in the news",
           section: "Navigation",
           handler: () => {
             window.location.href = "/media/";
@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "Current and past lab members.",
+          description: "Current and past lab members",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
