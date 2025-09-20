@@ -2,7 +2,7 @@
 layout: page
 permalink: /media/
 title: Media
-description: My research in the news!
+description: My research in the news
 nav: true
 nav_order: 4
 ---
