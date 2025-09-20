@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-the-bnbee-project",
+          title: "The BnBee Project",
+          description: "Hotels for solitary native bees",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/bnbeeproject/";
+          },
         },{id: "nav-outreach",
           title: "Outreach",
           description: "Spreading the word",
