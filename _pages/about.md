@@ -28,11 +28,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystems, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health. I’m particularly interested in our native bees, their vital role in maintaining biodiversity, and the traditional medicinal use of their honey by Indigenous communities.
+I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystem resilience, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health.
 
-Alongside my research on bees, I also focus on drug discovery to tackle fungal infections. I explore natural compounds that could enhance current treatments, offering new options for fighting resistant fungal strains. My work investigates how fungi impact human health, with the goal of developing better solutions for treating fungal infections.
+Alongside my research on bees, I also focus on drug discovery to tackle fungal infections. I explore natural compounds that could enhance current treatments, offering new options for fighting resistant fungal strains. 
 
-Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. Through storytelling and outreach, I hope to inspire people to appreciate and protect our rich biodiversity.
+Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. 
+
+<div class="row">
+    <div class="col-sm-6 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/field.jpg" title="Collecting samples in the field" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/famelab.jpg" title="FameLab 2025" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/parliamenthouse.jpg" title="Visiting Parliament House" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/tcarb.jpg" title="Tetragonula carbonaria colony" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <!-- Image Grid: 2 rows of 4 -->
 <div class="row mt-4">
