@@ -7,6 +7,16 @@ nav: true
 nav_order: 4
 ---
 
+<style>
+  .year-heading {
+    background-color: #B510B3;
+    color: white;
+    font-size: 1rem; /* adjust smaller if needed */
+    padding: 5px;
+    border-radius: 5px;
+  }
+</style>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="embed-responsive embed-responsive-16by9">
@@ -55,7 +65,7 @@ nav_order: 4
 
   <!-- 2025 -->
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium" style="background-color:#B510B3; padding:5px; border-radius:5px;">2025</h3>
+    <h3 class="card-title font-weight-medium year-heading">2025</h3>
     <ul>
       <li>Joy Drive Radio, aired live 10 Jul 2025 at 4:15pm: <a href="https://joy.org.au/joydrive/2025/07/11/dr-kenya-fernandes-the-stingless-bees-that-might-save-modern-medicine/">“The stingless bees that might save modern medicine”</a></li>
       <li>KidsNews, 29 Jun 2025: <a href="https://www.kidsnews.com.au/health/honey-from-sugarbag-bees-found-to-have-antimicrobial-properties/news-story/51709389048f9159dc5c94abd652aa9a">“Honey from sugarbag bees found to have antimicrobial properties”</a></li>
@@ -71,7 +81,7 @@ nav_order: 4
 
   <!-- 2024 -->
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium" style="background-color:#B510B3; padding:5px; border-radius:5px;">2024</h3>
+    <h3 class="card-title font-weight-medium year-heading">2024</h3>
     <ul>
       <li>University of Sydney News, 12 Dec 2024: <a href="https://www.sydney.edu.au/news-opinion/news/2024/12/12/three-new-superstars-of-stem-at-sydney.html">“Three new Superstars of STEM at Sydney”</a></li>
       <li>University of Sydney News, 09 Oct 2024: <a href="https://www.sydney.edu.au/infectious-diseases-institute/news-and-events/news/2024/10/09/fungi-and-bees.html">“Fungi and bees: A new approach to ecosystem health”</a></li>
@@ -81,7 +91,7 @@ nav_order: 4
 
   <!-- 2023 -->
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium" style="background-color:#B510B3; padding:5px; border-radius:5px;">2023</h3>
+    <h3 class="card-title font-weight-medium year-heading">2023</h3>
     <ul>
       <li>ABC News, 17 Dec 2023: <a href="https://www.abc.net.au/news/2023-12-17/research-finds-honey-ants-effective-against-infections/103214054">“Honeypot ants from deep in the West Australian Goldfields could hold key to new medical treatments”</a></li>
       <li>ABC Evening News, aired 17 Dec 2023: <a href="https://www.youtube.com/watch?v=LT2RXNt9CyM">“Honeypot ants from deep in the West Australian Goldfields could hold key to new medical treatments”</a></li>
@@ -102,5 +112,3 @@ nav_order: 4
   </div>
 
 </div>
-
-
