@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications in reverse chronological order.",
+          description: "Publications in reverse chronological order",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-school-visits",
           title: "School Visits",
-          description: "Engaging science for students!",
+          description: "Engaging science for students",
           section: "Navigation",
           handler: () => {
             window.location.href = "/schoolvisits/";
@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-people",
           title: "People",
-          description: "Current and past lab members.",
+          description: "Current and past lab members",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
