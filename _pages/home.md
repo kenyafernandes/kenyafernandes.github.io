@@ -1,6 +1,6 @@
 ---
-layout: about
-title: About
+layout: home
+title: Home
 permalink: /
 subtitle: Microbe, Bee, and Honey Researcher<br>
           ARC DECRA Fellow<br>
