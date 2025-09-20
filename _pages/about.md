@@ -34,20 +34,31 @@ Alongside my research on bees, I also focus on drug discovery to tackle fungal i
 
 Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. 
 
-<div class="row">
-    <div class="col-sm-6 mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/field.jpg" title="Collecting samples in the field" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/famelab.jpg" title="FameLab 2025" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/parliamenthouse.jpg" title="Visiting Parliament House" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3">
-        {% include figure.liquid loading="eager" path="assets/img/tcarb.jpg" title="Tetragonula carbonaria colony" class="img-fluid rounded z-depth-1" %}
-    </div>
+<style>
+.equal-height {
+  height: 250px;       /* uniform height */
+  width: auto;         /* preserve aspect ratio */
+  display: block;
+  margin-left: auto;   /* center horizontally */
+  margin-right: auto;
+}
+</style>
+
+<div class="row text-center">
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/field.jpg" title="Collecting samples in the field" class="img-fluid rounded z-depth-1 equal-height" %}
+  </div>
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/famelab.jpg" title="FameLab 2025" class="img-fluid rounded z-depth-1 equal-height" %}
+  </div>
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/parliamenthouse.jpg" title="Visiting Parliament House" class="img-fluid rounded z-depth-1 equal-height" %}
+  </div>
+  <div class="col-sm-3 mt-3">
+    {% include figure.liquid loading="eager" path="assets/img/tcarb.jpg" title="Tetragonula carbonaria colony" class="img-fluid rounded z-depth-1 equal-height" %}
+  </div>
 </div>
+
 
 <!-- Image Grid: 2 rows of 4 -->
 <div class="row mt-4">
@@ -67,12 +78,25 @@ Beyond the lab, I’m passionate about making science exciting and accessible to
 <!-- Big Link Boxes -->
 <div class="row mt-5">
   <div class="col-sm-4 mb-3">
-    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none;">YouTube</a>
+    <a href="https://www.youtube.com/@drkenyafernandes" 
+       class="btn btn-primary btn-block" 
+       style="padding: 30px 0; font-size: 1em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none; text-transform: lowercase;">
+       youtube
+    </a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none;">Instagram</a>
+    <a href="https://www.instagram.com/drkenyafernandes" 
+       class="btn btn-primary btn-block" 
+       style="padding: 30px 0; font-size: 1em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none; text-transform: lowercase;">
+       instagram
+    </a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="/bnbeeproject/" class="btn btn-primary btn-block" style="padding: 60px 0; font-size: 1.2em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none;">BnBee Project</a>
+    <a href="https://www.linkedin.com/in/kenyafernandes" 
+       class="btn btn-primary btn-block" 
+       style="padding: 30px 0; font-size: 1em; text-align: center; display: block; background-color:#B510B3; color:white; text-decoration:none; text-transform: lowercase;">
+       linkedin
+    </a>
   </div>
 </div>
+
