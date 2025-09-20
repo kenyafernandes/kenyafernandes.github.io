@@ -21,7 +21,9 @@ nav_order: 3
     </div>
 </div>
 
-I'm passionate about making science accessible and engaging for everyone. Whether it's a community event, a beekeeping meeting, or a science festival, I love sharing research in a way that sparks curiosity and conversation.
+I’m passionate about making science accessible, engaging, and meaningful for everyone. Science isn’t just about data and experiments - it’s about curiosity, discovery, and connecting people with the natural world. I love sharing my research on bees, fungi, and the fascinating ways they interact, whether it’s at a community event, a school workshop, a science festival, or a beekeeping meeting.
+
+Through stories, hands-on activities, and approachable explanations, I aim to show that science is something we can all explore and enjoy. I especially love helping people notice the incredible diversity of life around us - from the bees in our backyards to the hidden microbes that influence our world. My goal is to spark curiosity, encourage questions, and leave people inspired to see science not just as something in a lab, but as a part of everyday life.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
