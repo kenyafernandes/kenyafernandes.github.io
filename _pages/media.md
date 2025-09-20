@@ -12,6 +12,7 @@ nav_order: 4
     background-color: #B510B3;
     color: white !important; /* force white text */
     font-size: 0.9rem; /* smaller than default */
+    font-weight: bold; /* make year bold */
     padding: 5px;
     border-radius: 5px;
   }
@@ -97,19 +98,4 @@ nav_order: 4
       <li>ABC News, 17 Dec 2023: <a href="https://www.abc.net.au/news/2023-12-17/research-finds-honey-ants-effective-against-infections/103214054">“Honeypot ants from deep in the West Australian Goldfields could hold key to new medical treatments”</a></li>
       <li>ABC Evening News, aired 17 Dec 2023: <a href="https://www.youtube.com/watch?v=LT2RXNt9CyM">“Honeypot ants from deep in the West Australian Goldfields could hold key to new medical treatments”</a></li>
       <li>SBS Mandarin News, aired 19 Sep 2023: <a href="https://youtu.be/WFOl6_T2Wds?si=g9joiHjDFH1irk1C">Available here</a></li>
-      <li>Sky News, aired 03 Aug 2023: <a href="https://www.skynews.com.au/australia-news/striking-findings-on-ant-honey-having-medicinal-benefits/video/54899860d1e94db5237b781409f00f05">"Striking findings on ant honey having medicinal benefits"</a></li>
-      <li>Nine News Darwin, aired 28 Jul 2023</li>
-      <li>Smithsonian Magazine, 28 Jul 2023: <a href="https://www.smithsonianmag.com/smart-news/honey-made-by-ants-could-protect-against-bacteria-and-fungi-180982611/">“Honey made by ants could protect against bacteria and fungi”</a></li>
-      <li>ABC Radio Sydney, aired live 27 Jul 2023</li>
-      <li>SBS News Radio, aired 27 Jul 2023: <a href="https://www.sbs.com.au/news/podcast-episode/drawing-on-traditional-indigenous-knowledge-of-honeypot-ants/hx70rj6pb">"Drawing on traditional Indigenous knowledge of honeypot ants"</a></li>
-      <li>The Guardian, 27 Jul 2023: <a href="https://www.theguardian.com/australia-news/2023/jul/27/honey-ant-honeypot-australian-science-benefits-found-indigenous-western-australia">"Honey produced by Australian ant has highly effective antibacterial properties, researchers say"</a></li>
-      <li>Yahoo News, 27 Jul 2023: <a href="https://au.news.yahoo.com/honey-aussie-ant-powerful-healing-110000515.html">“Sweet science: honey could help develop new antibiotics”</a></li>
-      <li>IFL Science, 27 Jul 2023: <a href="https://www.iflscience.com/honeypot-ants-honey-can-kill-pathogenic-bacteria-but-leave-others-untouched-70036">“Honeypot ants’ honey can kill pathogenic bacteria but leave others untouched”</a></li>
-      <li>University of Sydney News, 27 Jul 2023: <a href="https://www.sydney.edu.au/news-opinion/news/2023/07/27/western-science-catches-up-with-first-nations-medicinal-use-of-ant-honey.html">“Western science catches up with First Nations’ medicinal use of ant honey”</a></li>
-      <li>BBC Science Focus, 26 Jul 2023: <a href="https://www.sciencefocus.com/news/bizarre-australian-ant-honey-used-in-indigenous-medicine-inspires-powerful-new-antibiotics/">“Bizarre Australian honey, used in Indigenous medicine, inspires powerful new antibiotics”</a></li>
-      <li>Science, 26 Jul 2023: <a href="https://www.science.org/content/article/these-ants-are-ballooning-microbe-killing-honey">"These ants are ballooning with microbe-killing honey"</a></li>
-      <li>New Scientist, 26 Jul 2023: <a href="https://www.newscientist.com/article/2384459-honey-made-by-ants-could-treat-some-bacterial-and-fungal-infections/">"Honey made by ants could treat some bacterial and fungal infections"</a></li>
-    </ul>
-  </div>
-
-</div>
+      <li>Sky News, aired 03 Aug 2023: <a href="https://www.skynews.com.au/australia-news/striking-findings-on-ant-honey-having-medicinal-benef
