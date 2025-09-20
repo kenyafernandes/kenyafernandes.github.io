@@ -192,18 +192,18 @@ ninja.data = [{
           window.open("mailto:%6B%65%6E%79%61.%66%65%72%6E%61%6E%64%65%73@%73%79%64%6E%65%79.%65%64%75.%61%75", "_blank");
         },
       },{
+        id: 'social-instagram',
+        title: 'Instagram',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://instagram.com/drkenyafernandes", "_blank");
+        },
+      },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/drkenyafernandes/", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'ORCID',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0002-2912-4360", "_blank");
         },
       },{
         id: 'social-work',
