@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outreach/";
           },
+        },{id: "nav-school-visits",
+          title: "School Visits",
+          description: "Engaging science for students",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/schools/";
+          },
         },{id: "nav-media",
           title: "Media",
           description: "My research in the news!",
