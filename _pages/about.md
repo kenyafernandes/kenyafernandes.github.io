@@ -28,16 +28,33 @@ latest_posts:
   limit: 3
 ---
 
+<style>
+  .custom-btn {
+    background: #B510B3 !important;
+    border: none !important;
+    padding: 40px !important;
+    border-radius: 12px !important;
+    color: #fff !important;
+    font-size: 18px !important;
+    display: block !important;
+    text-decoration: none !important;
+  }
+  .custom-btn:hover {
+    background: #9a0d96 !important; /* darker purple on hover */
+    color: #fff !important;
+  }
+</style>
+
 <!-- Link boxes under subtitle -->
 <div class="row mt-4 text-center">
   <div class="col-sm-4 mb-3">
-    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; font-size:18px; display:block;">YouTube</a>
+    <a href="https://www.youtube.com/@drkenyafernandes" class="custom-btn">YouTube</a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; font-size:18px; display:block;">Instagram</a>
+    <a href="https://www.instagram.com/drkenyafernandes" class="custom-btn">Instagram</a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="/nativebees/" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; font-size:18px; display:block;">Learn about Native Bees</a>
+    <a href="/nativebees/" class="custom-btn">Learn about Native Bees</a>
   </div>
 </div>
 
