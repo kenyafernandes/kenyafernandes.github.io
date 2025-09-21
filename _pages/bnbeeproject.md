@@ -11,41 +11,44 @@ nav_order: 3
   .buzz-fact { background: linear-gradient(45deg, #fff3e0, #ffe0b2); border-left: 5px solid #ff9800; padding: 20px; margin: 30px 0; border-radius: 10px; position: relative; }
   .buzz-fact::before { content: '🐝'; position: absolute; left: -15px; top: -5px; font-size: 30px; background: white; border-radius: 50%; padding: 5px; }
   .buzz-fact h4 { color: #e67e22; font-size: 1.3rem; margin-bottom: 10px; font-weight: bold; }
-  
+
   .workshop-section { background: #f8f9fa; border-radius: 15px; padding: 30px; margin: 30px 0; border: 2px solid #007bff; }
   .workshop-section h3 { color: #007bff; font-size: 1.8rem; margin-bottom: 20px; text-align: center; border-bottom: 3px solid #007bff; padding-bottom: 10px; }
-  
+
   .activity-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; margin: 30px 0; }
   .activity-card { background: linear-gradient(135deg, #e3f2fd, #bbdefb); color: #1565c0; padding: 25px; border-radius: 15px; text-align: center; border: 2px solid #2196f3; transition: transform 0.3s ease; }
   .activity-card:hover { transform: translateY(-5px); box-shadow: 0 10px 25px rgba(33, 150, 243, 0.2); }
   .activity-card h4 { font-size: 1.4rem; margin-bottom: 15px; font-weight: bold; }
-  .activity-emoji { font-size: 3rem; display: block; margin-bottom: 15px; }
-  
+  .activity-card img { max-width: 200px; height: auto; margin: 0 auto 15px; display: block; border-radius: 10px; }
+
   .instructions-box { background: #e8f5e8; border-radius: 12px; padding: 25px; margin: 20px 0; border: 2px dashed #28a745; }
   .instructions-box h4 { color: #28a745; font-size: 1.3rem; margin-bottom: 15px; font-weight: bold; }
   .step { display: flex; align-items: flex-start; margin: 15px 0; padding: 15px; background: white; border-radius: 8px; border-left: 4px solid #28a745; }
   .step-number { background: #28a745; color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 15px; flex-shrink: 0; font-size: 1rem; }
-  
+
   .fun-facts-box { background: linear-gradient(135deg, #f8d7da, #f5c6cb); color: #721c24; border-radius: 15px; padding: 30px; margin: 30px 0; text-align: center; border: 2px solid #dc3545; }
   .fun-facts-box h4 { font-size: 1.8rem; margin-bottom: 20px; font-weight: bold; }
   .fact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 25px; }
   .fact-item { background: rgba(255,255,255,0.7); padding: 20px; border-radius: 10px; border: 1px solid #dc3545; }
   .fact-emoji { font-size: 2.5rem; margin-bottom: 10px; display: block; }
-  
+
   .conservation-message { background: linear-gradient(135deg, #d4edda, #c3e6cb); color: #155724; border-radius: 20px; padding: 40px; text-align: center; margin: 40px 0; position: relative; border: 3px solid #28a745; }
   .conservation-message::before { content: '🌍💚🐝'; position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 30px; background: white; padding: 10px 20px; border-radius: 25px; border: 2px solid #28a745; }
   .conservation-message h4 { font-size: 1.8rem; margin-bottom: 20px; margin-top: 20px; font-weight: bold; }
-  
+
+  .bee-gallery { display: flex; justify-content: center; gap: 20px; margin-top: 25px; }
+  .bee-gallery figure { text-align: center; max-width: 250px; }
+  .bee-gallery img { width: 100%; border-radius: 15px; border: 2px solid #28a745; }
+  .bee-gallery figcaption { margin-top: 8px; font-size: 0.95rem; font-weight: bold; color: #155724; }
+
   .species-list { background: #f8f9fa; border-radius: 12px; padding: 25px; margin: 25px 0; border: 2px solid #6f42c1; }
   .species-list h4 { color: #6f42c1; font-size: 1.4rem; margin-bottom: 15px; text-align: center; font-weight: bold; }
   .species-tags { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
   .species-tag { background: linear-gradient(45deg, #9c88ff, #6f42c1); color: white; padding: 8px 15px; border-radius: 20px; font-size: 0.9rem; font-weight: bold; }
 
-  .conservation-images { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 25px; }
-  .conservation-images img { width: 300px; border-radius: 15px; border: 2px solid #28a745; }
-
   @media (max-width: 768px) { 
-    .activity-grid, .fact-grid, .conservation-images { grid-template-columns: 1fr; flex-direction: column; align-items: center; } 
+    .activity-grid, .fact-grid { grid-template-columns: 1fr; } 
+    .bee-gallery { flex-direction: column; align-items: center; }
     .step { flex-direction: column; text-align: center; } 
     .step-number { margin-right: 0; margin-bottom: 10px; } 
   }
@@ -62,10 +65,19 @@ nav_order: 3
   <p>Native bees are losing their homes due to habitat loss, urban development, and changes in land use. By building bee hotels and planting native flowers, we create safe spaces for these amazing pollinators.</p>
   <p>When we support native bees, we support biodiversity, help maintain healthy plant communities, and contribute to the resilience of our natural environment.</p>
 
-  <div class="conservation-images">
-    <img src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Amegilla bombiformis">
-    <img src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Thyreus nitidulus">
-    <img src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Megachile aurifons">
+  <div class="bee-gallery">
+    <figure>
+      <img src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Amegilla bombiformis">
+      <figcaption><em>Amegilla bombiformis</em></figcaption>
+    </figure>
+    <figure>
+      <img src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Thyreus nitidulus">
+      <figcaption><em>Thyreus nitidulus</em></figcaption>
+    </figure>
+    <figure>
+      <img src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Megachile aurifons">
+      <figcaption><em>Megachile aurifons</em></figcaption>
+    </figure>
   </div>
 </div>
 
@@ -73,12 +85,12 @@ nav_order: 3
   <h3>Workshops</h3>
   <div class="activity-grid">
     <div class="activity-card">
-      <img src="{{ 'assets/img/beehotel.jpg' | relative_url }}" alt="Bee Hotel" class="activity-emoji">
+      <img src="{{ 'assets/img/beehotel.jpg' | relative_url }}" alt="Bee Hotel">
       <h4>Build Bee Hotels</h4>
       <p>Create cozy homes for native bees using natural materials like bamboo. These hotels give solitary bees safe places to lay their eggs!</p>
     </div>
     <div class="activity-card">
-      <img src="{{ 'assets/img/seedbomb.jpg' | relative_url }}" alt="Native Flower Seed Bomb" class="activity-emoji">
+      <img src="{{ 'assets/img/seedbomb.jpg' | relative_url }}" alt="Native Flower Seed Bomb">
       <h4>Make Native Seed Bombs</h4>
       <p>Mix clay, soil, and native flower seeds to create "seed bombs" that will grow into beautiful bee-friendly gardens!</p>
     </div>
