@@ -47,23 +47,21 @@ latest_posts:
         <p class="video-caption text-center">ABC News Feature on Native Bee Honey.</p>
     </div>
 
-    <!-- Instagram video scaled to same size -->
-    <div class="col-md-6 mb-3">
-        <div class="embed-responsive embed-responsive-16by9">
-            <blockquote class="instagram-media" 
-                        data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
-                        data-instgrm-version="14" 
-                        style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; width:100%; height:100%;">
-            </blockquote>
-        </div>
+    <!-- Instagram video scaled smaller but not cropped -->
+    <div class="col-md-6 mb-3 text-center">
+        <blockquote class="instagram-media" 
+                    data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+                    data-instgrm-version="14" 
+                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; max-width:100%; transform:scale(0.85); transform-origin: top center;">
+        </blockquote>
     </div>
 </div>
 
 <script async src="//www.instagram.com/embed.js"></script>
 
-<!-- Floating photo -->
+<!-- Full width floating photo -->
 <div class="row justify-content-center mt-4">
-    <div class="col-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1" %}
+    <div class="col-12">
+        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1 w-100" %}
     </div>
 </div>
