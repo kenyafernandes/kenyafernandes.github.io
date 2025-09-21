@@ -75,7 +75,7 @@ latest_posts:
     <a href="https://www.instagram.com/drkenyafernandes" class="custom-btn">Instagram</a>
   </div>
   <div class="col-sm-4 mb-3 btn-col">
-    <a href="/nativebees/" class="custom-btn">Learn about Native Bees</a>
+    <a href="/nativebees/" class="custom-btn">Native Bees</a>
   </div>
 </div>
 
