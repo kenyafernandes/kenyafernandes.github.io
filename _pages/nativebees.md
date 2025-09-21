@@ -187,12 +187,8 @@ nav_order: 3
   <div class="col-md-6">
     <h4>Learn More</h4>
     <ul>
-      <li><a href="https://www.wheenbeefoundation.org.au/about-bees-pollination/australian-native-bees/">Australian Native Bees - Wheen Bee Foundation</a></li>
+      <li><a href="https://www.aussiebee.com.au/beesinyourarea.html/">Which native bees are in your area? - Aussie Bees</a></li>
       <li><a href="https://www.krg.nsw.gov.au/Environment/Your-local-environment/Wildlife/Living-with-wildlife/Bee-hotels">Bee Hotels - Ku-ring-gai Council</a></li>
     </ul>
-  </div>
-  <div class="col-md-6">
-    <h4>Workshop Bookings</h4>
-    <p>Interested in bringing the BnBee Project to your school? My contact details can be found on the About page.</p>
   </div>
 </div>
