@@ -73,12 +73,12 @@ nav_order: 3
   <h3>Workshops</h3>
   <div class="activity-grid">
     <div class="activity-card">
-      <img src="assets/img/bee-hotel.png" alt="Bee Hotel" class="activity-emoji">
+      <img src="assets/img/beehotel.jpg" alt="Bee Hotel" class="activity-emoji">
       <h4>Build Bee Hotels</h4>
       <p>Create cozy homes for native bees using natural materials like bamboo. These hotels give solitary bees safe places to lay their eggs!</p>
     </div>
     <div class="activity-card">
-      <img src="assets/img/seed-bomb.png" alt="Seed Bomb" class="activity-emoji">
+      <img src="assets/img/seedbomb.jpg" alt="Native Flower Seed Bomb" class="activity-emoji">
       <h4>Make Native Seed Bombs</h4>
       <p>Mix clay, soil, and native flower seeds to create "seed bombs" that will grow into beautiful bee-friendly gardens!</p>
     </div>
