@@ -37,21 +37,33 @@ latest_posts:
 
 <p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species.</p>
 
-<!-- Videos side by side -->
+<!-- Instagram videos side by side -->
 <div class="row mt-4 justify-content-center">
-    <!-- Instagram video scaled smaller but not cropped -->
+    <!-- Instagram video 1 -->
     <div class="col-md-6 mb-3 text-center">
         <blockquote class="instagram-media" 
-                    data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
-                    data-instgrm-version="14" 
-                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; max-width:100%; transform:scale(0.85); transform-origin: top center;">
+            data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+            data-instgrm-version="14" 
+            style="background:#FFF; border:0; border-radius:3px; 
+                   box-shadow:0 0 1px 0 rgba(0,0,0,0.5),
+                              0 1px 10px 0 rgba(0,0,0,0.15); 
+                   margin:auto; max-width:100%; 
+                   transform:scale(0.85); 
+                   transform-origin: top center;">
         </blockquote>
-    <!-- Instagram video scaled smaller but not cropped -->
+    </div>
+
+    <!-- Instagram video 2 -->
     <div class="col-md-6 mb-3 text-center">
         <blockquote class="instagram-media" 
-                    data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
-                    data-instgrm-version="14" 
-                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; max-width:100%; transform:scale(0.85); transform-origin: top center;">
+            data-instgrm-permalink="https://www.instagram.com/reel/DJ259HFzkn3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+            data-instgrm-version="14" 
+            style="background:#FFF; border:0; border-radius:3px; 
+                   box-shadow:0 0 1px 0 rgba(0,0,0,0.5),
+                              0 1px 10px 0 rgba(0,0,0,0.15); 
+                   margin:auto; max-width:100%; 
+                   transform:scale(0.85); 
+                   transform-origin: top center;">
         </blockquote>
     </div>
 </div>
