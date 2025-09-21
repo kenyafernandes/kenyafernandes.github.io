@@ -1,7 +1,7 @@
 ---
 layout: page
-title: The BnBee Project
-permalink: /bnbeeproject/
+title: Native Bees
+permalink: /nativebees/
 description:
 nav: true
 nav_order: 3
@@ -63,9 +63,9 @@ nav_order: 3
   <p>When we support native bees, we support biodiversity, help maintain healthy plant communities, and contribute to the resilience of our natural environment.</p>
 
   <div class="conservation-images">
-    <img src="assets/img/amegilla.jpg" alt="Native bee in habitat">
-    <img src="assets/img/thyreus.jpg" alt="Planting native flowers">
-    <img src="assets/img/megachile.jpg" alt="Bee hotel in garden">
+    <img src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Amegilla bombiformis">
+    <img src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Thyreus nitidulus">
+    <img src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Megachile aurifons">
   </div>
 </div>
 
@@ -73,12 +73,12 @@ nav_order: 3
   <h3>Workshops</h3>
   <div class="activity-grid">
     <div class="activity-card">
-      <img src="assets/img/beehotel.jpg" alt="Bee Hotel" class="activity-emoji">
+      <img src="{{ 'assets/img/beehotel.jpg' | relative_url }}" alt="Bee Hotel" class="activity-emoji">
       <h4>Build Bee Hotels</h4>
       <p>Create cozy homes for native bees using natural materials like bamboo. These hotels give solitary bees safe places to lay their eggs!</p>
     </div>
     <div class="activity-card">
-      <img src="assets/img/seedbomb.jpg" alt="Native Flower Seed Bomb" class="activity-emoji">
+      <img src="{{ 'assets/img/seedbomb.jpg' | relative_url }}" alt="Native Flower Seed Bomb" class="activity-emoji">
       <h4>Make Native Seed Bombs</h4>
       <p>Mix clay, soil, and native flower seeds to create "seed bombs" that will grow into beautiful bee-friendly gardens!</p>
     </div>
