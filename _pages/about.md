@@ -39,14 +39,13 @@ latest_posts:
 
 <!-- Videos side by side -->
 <div class="row mt-4 justify-content-center">
-    <!-- YouTube video -->
-    <div class="col-md-6 mb-3">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PzHeIt-X8Xo?si=etajDLaWsOhWfmaH" allowfullscreen></iframe>
-        </div>
-        <p class="video-caption text-center">ABC News Feature on Native Bee Honey.</p>
-    </div>
-
+    <!-- Instagram video scaled smaller but not cropped -->
+    <div class="col-md-6 mb-3 text-center">
+        <blockquote class="instagram-media" 
+                    data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+                    data-instgrm-version="14" 
+                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; max-width:100%; transform:scale(0.85); transform-origin: top center;">
+        </blockquote>
     <!-- Instagram video scaled smaller but not cropped -->
     <div class="col-md-6 mb-3 text-center">
         <blockquote class="instagram-media" 
