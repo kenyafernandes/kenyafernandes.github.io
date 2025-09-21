@@ -28,15 +28,18 @@ latest_posts:
   limit: 3
 ---
 
+<!-- Add extra spacing under subtitle to prevent video wrapping -->
+<div style="height: 60px;"></div>
+
 <p>I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystem resilience, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health.</p>
 
 <p>Alongside my research on bees, I also focus on drug discovery to tackle fungal infections. I explore natural compounds that could enhance current treatments, offering new options for fighting resistant fungal strains.</p>
 
 <p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species.</p>
 
-
 <!-- Videos side by side -->
 <div class="row mt-4 justify-content-center">
+    <!-- YouTube video -->
     <div class="col-md-6 mb-3">
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PzHeIt-X8Xo?si=etajDLaWsOhWfmaH" allowfullscreen></iframe>
@@ -44,12 +47,15 @@ latest_posts:
         <p class="video-caption text-center">ABC News Feature on Native Bee Honey.</p>
     </div>
 
-    <div class="col-md-6 mb-3 text-center">
-        <blockquote class="instagram-media" 
-                    data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
-                    data-instgrm-version="14" 
-                    style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; max-width:540px; min-width:326px; padding:0; width:100%;">
-        </blockquote>
+    <!-- Instagram video scaled to same size -->
+    <div class="col-md-6 mb-3">
+        <div class="embed-responsive embed-responsive-16by9">
+            <blockquote class="instagram-media" 
+                        data-instgrm-permalink="https://www.instagram.com/reel/DOqUNTggMNY/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+                        data-instgrm-version="14" 
+                        style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin:auto; width:100%; height:100%;">
+            </blockquote>
+        </div>
     </div>
 </div>
 
