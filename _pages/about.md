@@ -29,31 +29,52 @@ latest_posts:
 ---
 
 <style>
+  /* Button styling */
   .custom-btn {
-    background: #B510B3 !important;
+    background: #B510B3 !important;  /* Purple */
     border: none !important;
-    padding: 40px !important;
-    border-radius: 12px !important;
     color: #fff !important;
-    font-size: 18px !important;
-    display: block !important;
+    font-size: 16px !important;
     text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 180px !important;       /* fixed width */
+    height: 60px !important;       /* fixed height */
+    border-radius: 12px !important;
+    margin: 0 auto !important;     /* center in column */
+    transition: background 0.3s;
   }
+
   .custom-btn:hover {
-    background: #9a0d96 !important; /* darker purple on hover */
+    background: #9a0d96 !important;  /* darker purple on hover */
     color: #fff !important;
+  }
+
+  /* Responsive for mobile */
+  @media (max-width: 576px) {
+    .custom-btn {
+      width: 140px !important;
+      height: 50px !important;
+      font-size: 14px !important;
+    }
+  }
+
+  /* Optional: make columns text-center */
+  .btn-col {
+    text-align: center;
   }
 </style>
 
 <!-- Link boxes under subtitle -->
 <div class="row mt-4 text-center">
-  <div class="col-sm-4 mb-3">
+  <div class="col-sm-4 mb-3 btn-col">
     <a href="https://www.youtube.com/@drkenyafernandes" class="custom-btn">YouTube</a>
   </div>
-  <div class="col-sm-4 mb-3">
+  <div class="col-sm-4 mb-3 btn-col">
     <a href="https://www.instagram.com/drkenyafernandes" class="custom-btn">Instagram</a>
   </div>
-  <div class="col-sm-4 mb-3">
+  <div class="col-sm-4 mb-3 btn-col">
     <a href="/nativebees/" class="custom-btn">Learn about Native Bees</a>
   </div>
 </div>
