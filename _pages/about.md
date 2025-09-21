@@ -14,8 +14,8 @@ profile:
     The University of Sydney<br>
     Sydney, NSW, Australia
 
-selected_papers: false
-social: false
+selected_papers: true
+social: true
 
 announcements:
   enabled: false
