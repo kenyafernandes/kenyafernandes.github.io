@@ -63,9 +63,9 @@ nav_order: 3
   <p>When we support native bees, we support biodiversity, help maintain healthy plant communities, and contribute to the resilience of our natural environment.</p>
 
   <div class="conservation-images">
-    <img src="assets/img/conservation1.jpg" alt="Native bee in habitat">
-    <img src="assets/img/conservation2.jpg" alt="Planting native flowers">
-    <img src="assets/img/conservation3.jpg" alt="Bee hotel in garden">
+    <img src="assets/img/amegilla.jpg" alt="Native bee in habitat">
+    <img src="assets/img/thyreus.jpg" alt="Planting native flowers">
+    <img src="assets/img/megachile.jpg" alt="Bee hotel in garden">
   </div>
 </div>
 
