@@ -68,15 +68,15 @@ nav_order: 3
   <div class="bee-gallery">
     <figure>
       <img src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Amegilla bombiformis">
-      <figcaption><em>Amegilla bombiformis</em></figcaption>
+      <figcaption><em>Amegilla bombiformis by Loy Xingwen</em></figcaption>
     </figure>
     <figure>
       <img src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Thyreus nitidulus">
-      <figcaption><em>Thyreus nitidulus</em></figcaption>
+      <figcaption><em>Thyreus nitidulus by Dianne Clarke</em></figcaption>
     </figure>
     <figure>
       <img src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Megachile aurifons">
-      <figcaption><em>Megachile aurifons</em></figcaption>
+      <figcaption><em>Megachile aurifons by maxhr54</em></figcaption>
     </figure>
   </div>
 </div>
