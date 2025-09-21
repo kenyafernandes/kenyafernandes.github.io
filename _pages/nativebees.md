@@ -68,7 +68,7 @@ nav_order: 3
   <div class="bee-gallery">
     <figure>
       <img src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Amegilla bombiformis">
-      <figcaption><em>Amegilla bombiformis by Loy Xingwen</em></figcaption>
+      <figcaption><em>Amegilla bombiformis by notesafield</em></figcaption>
     </figure>
     <figure>
       <img src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Thyreus nitidulus">
@@ -86,11 +86,11 @@ nav_order: 3
   <div class="activity-grid">
     <div class="activity-card">
       <img src="{{ 'assets/img/beehotel.jpg' | relative_url }}" alt="Bee Hotel">
-      <h4>Build Bee Hotels</h4>
+      <h4>Build Native Bee Hotels</h4>
       <p>Create cozy homes for native bees using natural materials like bamboo. These hotels give solitary bees safe places to lay their eggs!</p>
     </div>
     <div class="activity-card">
-      <img src="{{ 'assets/img/seedbomb.jpg' | relative_url }}" alt="Native Flower Seed Bomb">
+      <img src="{{ 'assets/img/seedbombs.jpg' | relative_url }}" alt="Native Flower Seed Bombs">
       <h4>Make Native Seed Bombs</h4>
       <p>Mix clay, soil, and native flower seeds to create "seed bombs" that will grow into beautiful bee-friendly gardens!</p>
     </div>
