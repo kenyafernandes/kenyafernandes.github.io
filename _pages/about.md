@@ -34,12 +34,6 @@ latest_posts:
 
 <p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species.</p>
 
-<!-- Floating photo -->
-<div class="row justify-content-center mt-4">
-    <div class="col-12 col-md-6">
-        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 <!-- Videos side by side -->
 <div class="row mt-4 justify-content-center">
@@ -60,3 +54,10 @@ latest_posts:
 </div>
 
 <script async src="//www.instagram.com/embed.js"></script>
+
+<!-- Floating photo -->
+<div class="row justify-content-center mt-4">
+    <div class="col-12 col-md-6">
+        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
