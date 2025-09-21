@@ -31,13 +31,13 @@ latest_posts:
 <!-- Link boxes under subtitle -->
 <div class="row mt-4 text-center">
   <div class="col-sm-4 mb-3">
-    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; text-transform:lowercase; font-size:18px; display:block;">youtube</a>
+    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; font-size:18px; display:block;">YouTube</a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; text-transform:lowercase; font-size:18px; display:block;">instagram</a>
+    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; font-size:18px; display:block;">Instagram</a>
   </div>
   <div class="col-sm-4 mb-3">
-    <a href="/nativebees/" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; text-transform:lowercase; font-size:18px; display:block;">native bees</a>
+    <a href="/nativebees/" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; font-size:18px; display:block;">Learn about Native Bees</a>
   </div>
 </div>
 
@@ -64,9 +64,7 @@ latest_posts:
             style="background:#FFF; border:0; border-radius:3px; 
                    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),
                               0 1px 10px 0 rgba(0,0,0,0.15); 
-                   margin:auto; max-width:100%; 
-                   transform:scale(0.85); 
-                   transform-origin: top center;">
+                   margin:auto; max-width:100%;">
         </blockquote>
     </div>
 
@@ -78,9 +76,7 @@ latest_posts:
             style="background:#FFF; border:0; border-radius:3px; 
                    box-shadow:0 0 1px 0 rgba(0,0,0,0.5),
                               0 1px 10px 0 rgba(0,0,0,0.15); 
-                   margin:auto; max-width:100%; 
-                   transform:scale(0.85); 
-                   transform-origin: top center;">
+                   margin:auto; max-width:100%;">
         </blockquote>
     </div>
 </div>
