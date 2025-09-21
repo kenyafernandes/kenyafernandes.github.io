@@ -28,11 +28,11 @@ latest_posts:
   limit: 3
 ---
 
-<p>I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystem resilience, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health.</p>
+<p>I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystem resilience, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health. By investigating honey’s bioactivity and its role in bee health, I aim to uncover insights that benefit both pollinator conservation and human health.</p>
 
-<p>Alongside my research on bees, I also focus on drug discovery to tackle fungal infections. I explore natural compounds that could enhance current treatments, offering new options for fighting resistant fungal strains.</p>
+<p>Alongside my research on bee–microbe systems, I also work on drug discovery projects focused on combating fungal infections, which pose an increasing threat to global health. My approach involves exploring natural compounds that might enhance current antifungal treatments or provide entirely new therapeutic avenues. Resistant fungal strains are on the rise, and by looking to nature, I hope to help expand the limited toolbox we currently have for tackling these infections.</p>
 
-<p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species.</p>
+<p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. I hope to inspire greater appreciation for pollinators, ecosystems, and the unseen microbial communities that sustain life.</p>
 
 <!-- Full width floating photo -->
 <div class="row justify-content-center mt-4">
