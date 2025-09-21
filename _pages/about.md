@@ -28,8 +28,18 @@ latest_posts:
   limit: 3
 ---
 
-<!-- Add extra spacing under subtitle to prevent video wrapping -->
-<div style="height: 60px;"></div>
+<!-- Link boxes under subtitle -->
+<div class="row mt-4 text-center">
+  <div class="col-sm-4 mb-3">
+    <a href="https://www.youtube.com/@drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; text-transform:lowercase; font-size:18px; display:block;">youtube</a>
+  </div>
+  <div class="col-sm-4 mb-3">
+    <a href="https://www.instagram.com/drkenyafernandes" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; text-transform:lowercase; font-size:18px; display:block;">instagram</a>
+  </div>
+  <div class="col-sm-4 mb-3">
+    <a href="/nativebees/" class="btn btn-primary btn-block" style="background:#B510B3; border:none; padding:40px; border-radius:12px; color:#fff; text-transform:lowercase; font-size:18px; display:block;">native bees</a>
+  </div>
+</div>
 
 <p>I’m a microbiologist studying how microbes influence the health of our environment, pollinators, and people. My research focuses on the interactions between bees and microbes, and how these relationships affect pollinator survival, ecosystem resilience, and food security. Honey is central to my work, both for its antimicrobial and medicinal properties and its crucial role in bee health.</p>
 
@@ -37,7 +47,14 @@ latest_posts:
 
 <p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species.</p>
 
-<!-- Instagram videos side by side -->
+<!-- Full width floating photo -->
+<div class="row justify-content-center mt-4">
+    <div class="col-12">
+        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1 w-100" %}
+    </div>
+</div>
+
+<!-- Instagram videos under the picture -->
 <div class="row mt-4 justify-content-center">
     <!-- Instagram video 1 -->
     <div class="col-md-6 mb-3 text-center">
@@ -69,10 +86,3 @@ latest_posts:
 </div>
 
 <script async src="//www.instagram.com/embed.js"></script>
-
-<!-- Full width floating photo -->
-<div class="row justify-content-center mt-4">
-    <div class="col-12">
-        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1 w-100" %}
-    </div>
-</div>
