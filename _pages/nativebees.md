@@ -54,11 +54,7 @@ nav_order: 3
   }
 </style>
 
-<div class="row justify-content-center mt-3">
-  <div class="col-12">
-    {% include figure.liquid loading="eager" path="assets/img/bnbeeproject.jpg" title="The BnBee Project: Hotels for Pollinators" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+
 
 <div class="conservation-message">
   <h4>Why Native Bees Need Our Help</h4>
