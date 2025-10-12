@@ -48,10 +48,3 @@ latest_posts:
         <p class="video-caption text-center">"Bees just wanna have fungi" at FameLab 2025</p>
     </div>
 </div>
-
-<!-- Full width floating photo -->
-<div class="row justify-content-center mt-4">
-    <div class="col-12">
-        {% include figure.liquid loading="eager" path="assets/img/about.jpg" title="Dr Kenya Fernandes" class="img-fluid rounded z-depth-1 w-100" %}
-    </div>
-</div>
