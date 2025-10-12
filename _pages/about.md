@@ -34,6 +34,21 @@ latest_posts:
 
 <p>Beyond the lab, I’m passionate about making science exciting and accessible to everyone. I love sharing my discoveries, engaging with the public, and raising awareness about Australia’s incredible native species. I hope to inspire greater appreciation for pollinators, ecosystems, and the unseen microbial communities that sustain life.</p>
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yJkJx89de_U?si=APLadk_Xpznihnes" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption text-center">Short feature on my antimicrobial honey research</p>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9P2RgXeq2KY?si=k7v-HqZzMzRZ54S0" allowfullscreen></iframe>
+        </div>
+        <p class="video-caption text-center">"Bees just wanna have fungi" at FameLab 2025</p>
+    </div>
+</div>
+
 <!-- Full width floating photo -->
 <div class="row justify-content-center mt-4">
     <div class="col-12">
