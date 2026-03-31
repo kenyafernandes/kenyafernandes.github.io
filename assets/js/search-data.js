@@ -65,15 +65,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-bee-microbiomesa-the-hidden-allies-in-your-hive",
+        },{id: "post-bee-microbiomes-the-hidden-allies-in-your-hive",
       
-        title: "Bee Microbiomesa The Hidden Allies In Your Hive",
+        title: 'Bee microbiomes – the hidden allies in your hive <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "",
+      description: "An article for the Professional Beekeepers website.",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/bee-microbiomesa-the-hidden-allies-in-your-hive/";
+          window.open("https://extensionaus.com.au/professionalbeekeepers/bee-microbiomes-the-hidden-allies-in-your-hive/", "_blank");
         
       },
     },{id: "post-developing-reliable-processes-for-the-honey-industry-to-assess-active-honeys",
