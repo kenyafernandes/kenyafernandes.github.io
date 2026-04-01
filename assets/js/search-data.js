@@ -65,15 +65,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-australian-stingless-bee-honey-packs-a-serious-antimicrobial-punch",
+        },{id: "post-honey-from-australian-wildflowers-has-potent-power-to-kill-bacteria",
       
-        title: 'Australian stingless bee honey packs a serious antimicrobial punch! <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Honey from Australian wildflowers has potent power to kill bacteria <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "An article for The Amateur Beekeeper newsletter.",
+      description: "An article for The Conversation.",
       section: "Posts",
       handler: () => {
         
-          window.open("https://tab.beekeepers.asn.au/issue-january-2026/native-bees", "_blank");
+          window.open("https://theconversation.com/honey-from-australian-wildflowers-has-potent-power-to-kill-bacteria-276630", "_blank");
         
       },
     },{id: "post-australian-stingless-bee-honey-packs-a-serious-antimicrobial-punch",
