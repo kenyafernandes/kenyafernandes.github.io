@@ -414,7 +414,7 @@ nav_order: 3
 <section class="nb-hero">
   <div class="nb-hero-bg"></div>
   <div class="nb-hero-text">
-    <p class="nb-eyebrow">Conservation &amp; Community</p>
+    <p class="nb-eyebrow"> </p>
     <h1>The World of<br><em>Native Bees</em></h1>
     <p class="nb-hero-sub">Building homes, planting gardens, and protecting the extraordinary pollinators that hold our ecosystems together.</p>
   </div>
@@ -496,20 +496,6 @@ nav_order: 3
         <span class="nb-species-credit">Photo: maxhr54</span>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- WHY -->
-<section class="nb-why nb-reveal">
-  <div>
-    <p class="nb-pull-quote">"When we support native bees, we support the very web of life that sustains us."
-      <span>Why it matters</span>
-    </p>
-  </div>
-  <div class="nb-why-body">
-    <p>Native bees are losing their homes at an alarming rate. Habitat loss, urban development, and shifts in land use have left these extraordinary pollinators with fewer and fewer safe places to nest, forage, and raise their young.</p>
-    <p>By building bee hotels and planting native flowers, we create corridors of habitat that give solitary bees what they need most — places to lay their eggs, gather pollen, and complete their life cycle undisturbed.</p>
-    <p>Beyond the bees themselves, this work ripples outward. Native pollinators support biodiversity, maintain healthy plant communities, and contribute to the resilience of the landscapes we all depend on. Every garden, every hollow stem, every native flower is a small act with outsized consequences.</p>
   </div>
 </section>
 
