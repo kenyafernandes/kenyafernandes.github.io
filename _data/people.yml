@@ -24,23 +24,58 @@
   image: /assets/img/kat_schell.jpg
   tag: current
 
+- name: Reilly Seet
+  role: PhD Student
+  project: Insect-microbe symbioses as a driver of speciation
+  supervisors: Ros Gloag, Kenya Fernandes
+  image: /assets/img/reilly_seet.jpg
+  tag: current
+
+- name: Amy Gaetjens
+  role: Masters Student
+  project: Characterising bias in fungal records on iNaturalist
+  supervisors: Kenya Fernandes, Tina Bell
+  image: /assets/img/amy_gaetjens.jpg
+  tag: current
+  
 - name: Clare Price
   role: Honours Student
   project: Characterising the fungus-feeding behaviour of a native bee mite
   supervisors: Kenya Fernandes, Ros Gloag
   image: /assets/img/clare_price.jpg
   tag: current
-  
-- name: Julie Lim
-  role: Senior Research Officer
-  image: /assets/img/julie_lim.jpg
+
+- name: Chris Dashwood
+  role: Honours Student
+  project: Emerging fungal threats at the farm-bushland interface
+  supervisors: Kenya Fernandes
+  image: /assets/img/chris_dashwood.jpg
+  tag: current
+
+- name: Jefferson Shi
+  role: Honours Student
+  project: Synergistic antimicrobial interactions between native bee and honey bee hive products
+  supervisors: Kenya Fernandes
+  image: /assets/img/jefferson_shi.jpg
+  tag: current
+
+- name: Riley Licari
+  role: Honours Student
+  project: Exploring Australian honey as a novel skin disease therapeutic
+  supervisors: Kate Worthing, Kenya Fernandes
+  image: /assets/img/riley_licari.jpg
   tag: current
   
 - name: Andrew Dong
   role: Research Officer
   image: /assets/img/andrew_dong.jpg
   tag: current
-
+  
+- name: Julie Lim
+  role: Senior Research Officer (2023-2025)
+  image: /assets/img/julie_lim.jpg
+  tag: past
+  
 - name: Asia Lim
   role: Honours Student (2024)
   project: Investigating the anti-dermatophyte activity of NSW honeys
