@@ -1,77 +1,51 @@
 ---
 layout: post
-title: Australian stingless bee honey packs a serious antimicrobial punch!
-date: 2026-01-15
-description: An article for The Amateur Beekeeper newsletter.
-redirect: https://tab.beekeepers.asn.au/issue-january-2026/native-bees
-thumbnail: assets/img/2026-01-15.jpg
+title: Honey from Australian wildflowers has potent power to kill bacteria
+date: 2026-03-03
+description: An article for The Conversation.
+redirect: https://theconversation.com/honey-from-australian-wildflowers-has-potent-power-to-kill-bacteria-276630
+thumbnail: assets/img/2026-03-03.jpg
 ---
 
-If you keep stingless bees, you probably already know their honey is something special. It's thinner than honeybee honey, tangier, and has been used in Indigenous medicine for thousands of years. What we didn’t have before now was solid scientific data on why it’s so special.
+Before antibiotics and antiseptics, healers across ancient Egypt, Greece, and China reached for honey to treat wounds. Archaeological evidence shows humans have been harvesting and collecting honey for thousands of years – and for much of that time, we understood it to be more than just food.
 
-My team at the University of Sydney tested 48 samples of Australian stingless bee honey against bacteria and fungi that cause skin infections, food poisoning, UTIs, and systemic infections. The results were far better than we expected. This honey isn't just good – it's exceptional.
+Today, honey sits in most kitchen cupboards as a perfectly ordinary pantry staple. But honey has never entirely shed its medicinal reputation. And modern research shows us why: it possesses genuine antimicrobial properties, capable of killing or inhibiting a wide range of bacteria, including drug-resistant strains.
 
-Why this matters
+This matters now more than ever. Antimicrobial resistance – where bacteria evolve to survive drugs designed to kill them – is one of the defining public health crises of our time. Infections caused by these resistant microbes are becoming harder and more expensive to treat, creating an urgent need for alternative therapies.
 
-By 2050, antimicrobial resistance could kill 2 million people every year. Bacteria are evolving faster than we can develop new antibiotics. Honey has been used medicinally for millennia, but not all honey performs the same way. We wanted to know where Australian stingless bee honey sits on that spectrum.
+Our new study, published in the journal MicrobiologyOpen, shows honeys from Australia’s native flora might be a big part of the solution.
 
-Three species tested
+What did we do?
+We analysed 56 honey samples collected from more than 35 apiaries across New South Wales. Many samples came from landscapes recovering from the 2019–2020 bushfires. Most were derived from native Australian plants such as eucalyptus, leptospermum and melaleuca.
 
-We worked with honey from three native species: Tetragonula carbonaria, Tetragonula hockingsi, and Austroplebeia australis. If you keep any of these bees, you're producing what Indigenous Australians call "sugarbag" honey.
+We tested the honeys against two common bacterial pathogens: Staphylococcus aureus (golden staph) and E. coli – both among the six leading causes of deaths associated with antibiotic resistance. For each sample we measured the minimum concentration needed to stop bacterial growth. The lower the concentration, the more potent the honey.
 
-Their nest architecture is totally unlike Apis mellifera: instead of combs, they build spirals of brood cells ringed by pots of honey and pollen. That enclosed, resin-rich environment likely shapes the honey’s chemistry.
+We also carried out comprehensive chemical profiling, measuring sugars, organic acids, amino acids, enzymes and a wide range of plant-derived compounds. Statistical and machine-learning analyses helped us identify which chemical features best explained antibacterial strength.
 
-Every sample worked
+What did we find?
+More than three-quarters of the honey samples stopped bacterial growth even when the honeys were diluted to 10% or less. This places Australian native flora honeys alongside some of the world’s most potent varieties.
 
-Across all 48 samples, we measured the concentration of honey needed to stop the growth of different types of bacteria and fungi. Every single sample had antimicrobial activity. There wasn’t a single “weak” honey in the entire dataset.
+The most striking factor was floral diversity.
 
-In many cases, stingless bee honey matched or beat active honey bee honey. This consistency suggests there's something fundamental about stingless bee honey that makes it inherently antimicrobial.
+Honeys from mixed floral sources – where bees foraged across multiple native plant species rather than a single species – were consistently the most antimicrobial.
 
-Heat doesn't destroy it
+This potency wasn’t due to any single compound but to a chemically rich combination.
 
-Most honey loses its antimicrobial properties when heated. We heat-treated our samples to separate heat-stable activity from temperature-sensitive compounds. The stingless bee honey held up remarkably well. Even after heating, it retained significant antimicrobial activity.
+Multiple bioactive factors – substances that have a measurable effect on living cells or tissues – worked together to inhibit bacteria. These included naturally produced hydrogen peroxide, plant-derived phenolic compounds (naturally occurring chemicals that plants produce as part of their own defence systems), and antioxidants.
 
-This means the honey could be heat-sterilised for medical-grade wound dressings without losing much effectiveness. It also suggests the antimicrobial compounds are stable and long-lasting.
+When bacteria encounter honey, this combination acts on several fronts at once. The low moisture content draws water out of bacterial cells, while the acidity disrupts their metabolism. Hydrogen peroxide damages their cellular structures, and phenolic and antioxidant compounds interfere with their ability to function and reproduce.
 
-A long, slow release of hydrogen peroxide
+The strength of mixed floral honeys may also reflect the health of the bees themselves.
 
-Honey produces hydrogen peroxide through an enzyme called glucose oxidase. In honey bee honey, this production typically lasts 12 to 24 hours, then stops.
+Access to diverse forage keeps colonies well nourished. And healthier bees produce more biologically active honey as their enzymes help integrate and activate the plant compounds into a complex antimicrobial mixture.
 
-Stingless bee honey kept producing hydrogen peroxide for 2 to 6 days. Some samples were still producing it after a week. T. carbonaria was the champion here, producing the most for the longest time. This means sustained antimicrobial action – the honey keeps working, day after day.
+What does this mean for antimicrobial resistance?
+Honey won’t replace antibiotics for serious or systemic infections.
 
-Old honey still works
+But for topical applications – chronic wounds, burns, or surgical site infections – it is a genuinely promising option. Because honey attacks bacteria through multiple simultaneous mechanisms, resistance is far less likely to emerge than with single-target drugs. Our team is now exploring these applications in more detail.
 
-We tested 18-year-old T. carbonaria honey that had been stored in a lab at 4°C in the dark. Their peroxide activity had degraded, which we expected, but the non-peroxide antimicrobial activity was completely preserved.
+Australia is particularly well-placed to lead in bioactive honey production. Around 70% of Australian honey comes from native plants. These plants are found not only in forests but also across farmland, regional landscapes, and urban green spaces.
 
-Honey stored for nearly two decades still kills bacteria and fungi. This opens up possibilities for long-term medical stockpiles. If you've got old stingless bee honey sitting around, it probably still has antimicrobial properties.
+Our findings show that prioritising floral diversity over monoculture isn’t just good for ecosystems – it produces more potent honey. With the beekeeping industry under serious pressure from bushfires, floods, and now the varroa mite, protecting and restoring florally-rich landscapes is critical: for bee health, for industry resilience, and for expanding our natural antimicrobial toolkit.
 
-
-What's inside
-
-Stingless bee honey is loaded with phenolic compounds – 2 to 3 times more than honeybee honey. These are plant-derived compounds with antioxidant and antimicrobial effects, likely coming from native Australian plants these bees forage on.
-
-Honey from T. carbonaria and T. hockingsi also contain more diverse proteins than honeybee honey. Many are likely antimicrobial peptides – small proteins that punch holes in bacterial membranes.
-
-Here's what it doesn't have: methylglyoxal. That's the compound that makes Manuka honey famous. Stingless bee honey works through a completely different mechanism.
-
-Medical potential
-
-Stingless bee honey shows potential for use in wound dressings, infection control, and as a model for discovering new antimicrobial compounds. Its heat stability and long-lived activity make it an attractive candidate for medical-grade development.
-
-Low production and lack of standardized testing protocols remain real obstacles. A stingless bee colony produces about half a liter of honey per year. A productive honeybee hive? Dozens of liters.
-
-But more Australians are keeping stingless bees every year – not primarily for honey, but for native pollination, conservation, and education. As hive numbers grow, so does the potential for small-batch honey production.
-
-Premium, not commodity
-
-This isn't bulk commodity honey. It's a premium specialty product with scientifically proven medicinal properties. The honey doesn’t need to compete on volume. It stands out because of its bioactivity.
-
-Our research provides scientific backing for knowledge that has existed in Indigenous communities for millennia. We hope our work will support premium pricing, industry development, and public interest.
-
-What's next
-
-Turning these findings into actual medical products depends on securing funding and partnering with medical researchers. Clinical trials are expensive and time-consuming. We're working on grants and building collaborations, but this is long-term work.
-
-In the lab, we're continuing to investigate the chemistry and exploring practical questions. Can stingless bee honey be blended with honey bee honey to enhance properties, or does blending dilute what makes it special?
-
-Australian stingless bee honey is proving to be far more remarkable than we expected. If you're keeping these bees, you're producing something truly special.
+In the meantime, the next jar of Australian honey you buy may just be doing more good than you realise.
