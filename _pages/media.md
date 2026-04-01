@@ -63,12 +63,32 @@ nav_order: 4
 <script async src="//www.instagram.com/embed.js"></script>
 
 <div class="cv">
+  <!-- 2026 -->
+  <div class="card mt-3 p-3">
+    <h3 class="card-title font-weight-medium year-heading">2025</h3>
+    <ul>
+      <li>South Sydney Herald, 31 Mar 2026: <a href="https://southsydneyherald.com.au/science-can-help-you-choose-your-honey-single-o-for-taste-multifloral-for-health/">“Science can help you choose your honey: single-o for taste, multifloral for health!”</a></li>
+      <li>ABC Science Show, aired 14 Mar: <a href="https://www.abc.net.au/listen/programs/scienceshow/australian-honey-also-carries-medicinal-properties/106452436">Available here</a></li>
+      <li>Joy Drive Radio, aired live 05 Mar 2025 at 4:30pm: <a href="https://joy.org.au/joydrive/2026/03/15/dr-kenya-fernandes-australian-wildflower-honey-and-the-surprising-fight-against-bacteria/">“Australian wildflower honey and the surprising fight against bacteria”</a></li>
+      <li>ABC Radio Sydney, aired live 04 Mar 2026 at 7:20am</li>
+      <li>ABC Radio South Australia, aired live 03 Mar 2026 at 4:30pm</li>
+      <li>ABC Radio Perth, aired live 03 Mar 2026 at 3:00pm</li>
+      <li>ABC Radio Mid-North Coast, aired live 03 Mar 2026 at 9:20am</li>
+      <li>ABC Radio Newcastle, aired live 03 Mar 2026 at 8:30am</li>
+      <li>2SM Radio, aired 03 Mar</li>
+      <li>Channel 9 Evening News, aired 03 Mar 2026: <a href="https://www.youtube.com/watch?v=gpu8n021wo4">Available here</a></li>
+      <li>The Guardian, 18 Mar 2026: <a href="https://www.theguardian.com/commentisfree/2026/mar/18/honey-health-benefits-sore-throat-antibiotic-sweetner-research">“Honey as a superfood: can it really heal wounds, fight superbugs and provide sweet relief for coughs?”</a></li>
+      <li>Sydney Morning Herald, 03 Mar 2026: <a href="https://www.smh.com.au/national/nsw/this-crisis-kills-100-australians-a-week-a-solution-might-be-in-your-pantry-20260218-p5o3d6.html">“This crisis kills 100 Australians a week. A solution might be in your pantry”</a></li>
+      <li>University of Sydney News, 03 Mar 2026: <a href="https://www.sydney.edu.au/news-opinion/news/2026/03/03/aussie-native-buffet-creates-honey-with-stronger-anti-microbial-punch.html">“Aussie native 'buffet' creates honey with stronger anti-microbial punch”</a></li>
+    </ul>
+  </div>
 
   <!-- 2025 -->
   <div class="card mt-3 p-3">
     <h3 class="card-title font-weight-medium year-heading">2025</h3>
     <ul>
       <li>Eastside FM, aired live 01 Sep 2025 at 4:10pm</li>
+      <li>2SER Radio Breakfast, aired live 11 Aug 2025 at 8:10am</li>
       <li>Joy Drive Radio, aired live 10 Jul 2025 at 4:15pm: <a href="https://joy.org.au/joydrive/2025/07/11/dr-kenya-fernandes-the-stingless-bees-that-might-save-modern-medicine/">“The stingless bees that might save modern medicine”</a></li>
       <li>KidsNews, 29 Jun 2025: <a href="https://www.kidsnews.com.au/health/honey-from-sugarbag-bees-found-to-have-antimicrobial-properties/news-story/51709389048f9159dc5c94abd652aa9a">“Honey from sugarbag bees found to have antimicrobial properties”</a></li>
       <li>ABC Radio Brisbane, aired live 23 Jun 2025 at 3:20pm</li>
