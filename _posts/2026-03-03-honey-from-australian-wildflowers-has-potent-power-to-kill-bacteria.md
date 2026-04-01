@@ -7,7 +7,7 @@ redirect: https://theconversation.com/honey-from-australian-wildflowers-has-pote
 thumbnail: assets/img/2026-03-03.jpg
 ---
 
-Before antibiotics and antiseptics, healers across ancient Egypt, Greece, and China reached for honey to treat wounds. Archaeological evidence shows humans have been harvesting and collecting honey for thousands of years – and for much of that time, we understood it to be more than just food.
+Before antibiotics and antiseptics, healers across ancient Egypt, Greece, and China reached for honey to treat wounds. Archaeological evidence shows humans have been harvesting and collecting honey for thousands of years – and for much of that time, we understood it to be more than just food. 
 
 Today, honey sits in most kitchen cupboards as a perfectly ordinary pantry staple. But honey has never entirely shed its medicinal reputation. And modern research shows us why: it possesses genuine antimicrobial properties, capable of killing or inhibiting a wide range of bacteria, including drug-resistant strains.
 
