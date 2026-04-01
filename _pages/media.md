@@ -36,7 +36,7 @@ nav_order: 4
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PzHeIt-X8Xo?si=etajDLaWsOhWfmaH allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PzHeIt-X8Xo?si=etajDLaWsOhWfmaH" allowfullscreen></iframe>
         </div>
         <p class="video-caption text-center">ABC News Feature on Native Bee Honey.</p>
     </div>
@@ -80,9 +80,9 @@ nav_order: 4
 <div class="cv">
   <!-- 2026 -->
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium year-heading">2025</h3>
+    <h3 class="card-title font-weight-medium year-heading">2026</h3>
     <ul>
-      <li>South Sydney Herald, 31 Mar 2026: <a href="https://southsydneyherald.com.au/science-can-help-you-choose-your-honey-single-o-for-taste-multifloral-for-health/">“Science can help you choose your honey: single-o for taste, multifloral for health!”</a></li>
+      <li>South Sydney Herald, 31 Mar 2026: <a href="https://southsydneyherald.com.au/science-can-help-you-choose-your-honey-single-o-for-taste-multifloral-for-health/">“Science can help you choose your honey: single for taste, multifloral for health!”</a></li>
       <li>ABC Science Show, aired 14 Mar: <a href="https://www.abc.net.au/listen/programs/scienceshow/australian-honey-also-carries-medicinal-properties/106452436">Available here</a></li>
       <li>Joy Drive Radio, aired live 05 Mar 2025 at 4:30pm: <a href="https://joy.org.au/joydrive/2026/03/15/dr-kenya-fernandes-australian-wildflower-honey-and-the-surprising-fight-against-bacteria/">“Australian wildflower honey and the surprising fight against bacteria”</a></li>
       <li>ABC Radio Sydney, aired live 04 Mar 2026 at 7:20am</li>
