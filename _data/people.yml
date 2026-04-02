@@ -31,6 +31,12 @@
   image: /assets/img/reilly_seet.jpg
   tag: current
 
+- name: Elisana Julek
+  role: Visiting PhD Student (Brazil)
+  project: Antimicrobial activity of stingless bee honeys
+  image: /assets/img/elisana_julek.jpg
+  tag: current
+  
 - name: Amy Gaetjens
   role: Masters Student
   project: Characterising bias in fungal records on iNaturalist
