@@ -90,6 +90,22 @@ nav_order: 3
   max-width: 42ch;
   font-style: italic;
 }
+.nb-hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+}
+.nb-hero-pill {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  background: rgba(212,145,32,0.18);
+  border: 1px solid rgba(212,145,32,0.4);
+  color: var(--nb-honey-light);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+}
 .nb-hero-bee { position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; }
 
 @keyframes nb-float {
@@ -125,38 +141,111 @@ nav_order: 3
   padding: 0 !important;
 }
 .nb-section-title em { font-style: italic; color: var(--nb-honey); }
-
-/* ── SPECIES ── */
-.nb-species-grid {
-  display: grid;
-  grid-template-columns: 1.25fr 1fr 1.1fr;
-  gap: 1.75rem;
-  align-items: end;
+.nb-section-lead {
+  font-size: 1rem;
+  color: var(--nb-muted);
+  font-style: italic;
+  max-width: 55ch;
+  margin-top: 0.5rem;
 }
-.nb-species-card:nth-child(2) { margin-bottom: 3rem; }
-.nb-species-card:nth-child(3) { margin-bottom: 1.25rem; }
-.nb-species-img { overflow: hidden; display: block; }
-.nb-species-img img {
+
+/* ── BEE GALLERY (species + facts merged) ── */
+.nb-bee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.nb-bee-card {
+  background: var(--nb-cream);
+  border: 1px solid var(--nb-rule);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.nb-bee-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(27,53,39,0.12);
+}
+.nb-bee-card-img {
   width: 100%;
   aspect-ratio: 4/3;
   object-fit: cover;
   display: block;
-  filter: saturate(0.88) contrast(1.06);
-  transition: transform 0.6s ease, filter 0.4s ease;
+  filter: saturate(0.9) contrast(1.05);
+  transition: transform 0.5s ease, filter 0.4s ease;
 }
-.nb-species-img:hover img { transform: scale(1.03); filter: saturate(1) contrast(1.04); }
-.nb-species-meta { padding: 0.6rem 0 0; }
-.nb-species-name {
+.nb-bee-card:hover .nb-bee-card-img {
+  transform: scale(1.04);
+  filter: saturate(1.05) contrast(1.03);
+}
+.nb-bee-card-img-wrap { overflow: hidden; }
+
+.nb-bee-placeholder {
+  width: 100%;
+  aspect-ratio: 4/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.nb-bee-placeholder svg { opacity: 0.4; }
+.nb-bee-placeholder span {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.nb-bee-card-body { padding: 1.1rem 1.25rem 1.4rem; }
+.nb-bee-tag-row { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-bottom: 0.7rem; }
+.nb-bee-tag {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-weight: 500;
+}
+/* tag colours */
+.nb-tag-amber { background: #FAEEDA; color: #854F0B; border: 0.5px solid #FAC775; }
+.nb-tag-green  { background: #EAF3DE; color: #27500A; border: 0.5px solid #C0DD97; }
+.nb-tag-teal   { background: #E1F5EE; color: #085041; border: 0.5px solid #9FE1CB; }
+.nb-tag-pink   { background: #FBEAF0; color: #72243E; border: 0.5px solid #F4C0D1; }
+.nb-tag-blue   { background: #E6F1FB; color: #0C447C; border: 0.5px solid #B5D4F4; }
+.nb-tag-purple { background: #EEEDFE; color: #3C3489; border: 0.5px solid #CECBF6; }
+
+.nb-bee-card-name {
   font-family: 'DM Serif Display', Georgia, serif;
-  font-style: italic;
-  font-size: 0.98rem;
+  font-size: 1.05rem;
   color: var(--nb-forest);
   display: block;
+  margin-bottom: 0.2rem;
+  line-height: 1.2;
 }
-.nb-species-credit {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.73rem;
+.nb-bee-card-sciname {
+  font-family: 'Lora', Georgia, serif;
+  font-style: italic;
+  font-size: 0.78rem;
   color: var(--nb-muted);
+  display: block;
+  margin-bottom: 0.65rem;
+}
+.nb-bee-card-fact {
+  font-size: 0.85rem;
+  color: var(--nb-brown);
+  line-height: 1.65;
+  margin: 0;
+}
+.nb-bee-card-credit {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.68rem;
+  color: var(--nb-muted);
+  margin-top: 0.75rem;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--nb-rule);
+  display: block;
 }
 
 /* ── WHY ── */
@@ -312,40 +401,19 @@ nav_order: 3
   margin-bottom: 1.1rem;
   font-weight: 400;
 }
-.nb-seed-list { list-style: none; display: flex; flex-wrap: wrap; column-gap: 2rem; row-gap: 0.35rem; padding: 0; margin: 0; }
-.nb-seed-list li {
+.nb-seed-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.nb-seed-tag {
   font-family: 'Lora', Georgia, serif;
-  font-size: 0.86rem;
+  font-size: 0.82rem;
   font-style: italic;
-  color: rgba(183,210,175,0.9);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: 20px;
+  border: 1px solid rgba(212,145,32,0.3);
 }
-.nb-seed-list li::before { content: ''; width: 4px; height: 4px; background: var(--nb-honey-light); border-radius: 50%; flex-shrink: 0; }
-
-/* ── FACTS ── */
-.nb-facts-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1px;
-  background: var(--nb-rule);
-  border: 1px solid var(--nb-rule);
-  margin-top: 2.75rem;
-}
-.nb-fact-card { background: var(--nb-cream); padding: 2.25rem 1.75rem; transition: background 0.3s; }
-.nb-fact-card:hover { background: var(--nb-parchment); }
-.nb-fact-marker { width: 34px; height: 34px; background: var(--nb-honey); display: flex; align-items: center; justify-content: center; margin-bottom: 1.35rem; }
-.nb-fact-marker svg { width: 16px; height: 16px; }
-.nb-fact-card h4 {
-  font-family: 'DM Serif Display', Georgia, serif !important;
-  font-size: 1.1rem !important;
-  color: var(--nb-forest) !important;
-  margin-bottom: 0.65rem !important;
-  line-height: 1.25 !important;
-  font-weight: 400 !important;
-}
-.nb-fact-card p { font-size: 0.87rem; color: var(--nb-muted); line-height: 1.7; margin: 0; }
+/* alternate tag colours for the flower list */
+.nb-seed-tag:nth-child(3n+1) { background: rgba(212,145,32,0.15); color: #D49120; }
+.nb-seed-tag:nth-child(3n+2) { background: rgba(58,107,79,0.25); color: #9FE1CB; }
+.nb-seed-tag:nth-child(3n)   { background: rgba(240,232,208,0.12); color: #F0E8D0; border-color: rgba(240,232,208,0.2); }
 
 /* ── LINKS ── */
 .nb-links {
@@ -394,17 +462,17 @@ nav_order: 3
   .nb-hero { grid-template-columns: 1fr; padding: 3rem 1.5rem 2.5rem; margin: 0 -10px; }
   .nb-hero-bee { display: none; }
   .nb-section { padding: 3rem 0; }
-  .nb-species-grid { grid-template-columns: 1fr 1fr; }
-  .nb-species-card:nth-child(2), .nb-species-card:nth-child(3) { margin-bottom: 0; }
+  .nb-bee-grid { grid-template-columns: 1fr 1fr; }
   .nb-why { grid-template-columns: 1fr; padding: 3rem 1.5rem; gap: 2.25rem; margin: 0 -10px; }
   .nb-pull-quote { position: static; }
   .nb-workshops-grid { grid-template-columns: 1fr; }
   .nb-instructions { padding: 3rem 1.5rem; margin: 0 -10px; }
   .nb-instructions-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .nb-seed-species { grid-column: 1; }
-  .nb-facts-grid { grid-template-columns: 1fr; gap: 0; background: transparent; border: none; }
-  .nb-fact-card { border-bottom: 1px solid var(--nb-rule); }
   .nb-links { grid-template-columns: 1fr; padding: 3rem 1.5rem; margin: 0 -10px; gap: 2rem; }
+}
+@media (max-width: 600px) {
+  .nb-bee-grid { grid-template-columns: 1fr; }
 }
 </style>
 
@@ -414,9 +482,10 @@ nav_order: 3
 <section class="nb-hero">
   <div class="nb-hero-bg"></div>
   <div class="nb-hero-text">
-    <p class="nb-eyebrow"> </p>
-    <h1>The World of<br><em>Native Bees</em></h1>
-    <p class="nb-hero-sub">Building homes, planting gardens, and protecting the extraordinary pollinators that hold our ecosystems together.</p>
+    <p class="nb-eyebrow">Australia's native bees</p>
+    <h1>There are over 2,000 native bee species<br><em>in Australia.</em></h1>
+    <p class="nb-hero-sub">Most live alone, don't make honey, and look nothing like a honeybee.</p>
+
   </div>
   <div class="nb-hero-bee">
     <svg width="260" height="260" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -445,81 +514,213 @@ nav_order: 3
         <circle cx="137" cy="84" r="3.5" fill="#D49120"/>
         <circle cx="183" cy="84" r="3.5" fill="#D49120"/>
       </g>
-      <g opacity="0.4">
-        <circle cx="58" cy="72" r="5" fill="#D49120" opacity="0.6"/>
-        <circle cx="48" cy="66" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <circle cx="68" cy="66" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <circle cx="48" cy="78" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <circle cx="68" cy="78" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <path d="M58 77 Q55 90 52 100" stroke="#3A6B4F" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-        <circle cx="258" cy="240" r="5" fill="#D49120" opacity="0.6"/>
-        <circle cx="248" cy="234" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <circle cx="268" cy="234" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <circle cx="248" cy="246" r="4" fill="#3A6B4F" opacity="0.5"/>
-        <circle cx="268" cy="246" r="4" fill="#3A6B4F" opacity="0.5"/>
-      </g>
     </svg>
   </div>
 </section>
 
-<!-- SPECIES -->
+<!-- BEE GALLERY: species + facts merged -->
 <section class="nb-section nb-reveal">
   <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Australia's Native Pollinators</p>
-    <h2 class="nb-section-title">Meet the <em>species</em></h2>
+    <p class="nb-section-eyebrow">Species guide</p>
+    <h2 class="nb-section-title">Let's meet <em>some of them</em></h2>
   </div>
-  <div class="nb-species-grid">
-    <div class="nb-species-card">
-      <span class="nb-species-img">
-        <img src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Amegilla bombiformis - teddy bear bee" loading="lazy">
-      </span>
-      <div class="nb-species-meta">
-        <span class="nb-species-name">Amegilla bombiformis</span>
-        <span class="nb-species-credit">Photo: notesafield</span>
+  <div class="nb-bee-grid">
+
+    <!-- 1 -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Teddy bear bee" loading="lazy">
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-amber">Fluffy &amp; orange</span>
+          <span class="nb-bee-tag nb-tag-green">Solitary</span>
+        </div>
+        <span class="nb-bee-card-name">Teddy bear bee</span>
+        <span class="nb-bee-card-sciname">Amegilla bombiformis</span>
+        <p class="nb-bee-card-fact">This one looks like a flying furball. The thick orange fur isn't just cute — it traps pollen like velcro so the bee carries more with every flower visit.</p>
+        <span class="nb-bee-card-credit">Photo: notesafield</span>
       </div>
     </div>
-    <div class="nb-species-card">
-      <span class="nb-species-img">
-        <img src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Thyreus nitidulus - neon cuckoo bee" loading="lazy">
-      </span>
-      <div class="nb-species-meta">
-        <span class="nb-species-name">Thyreus nitidulus</span>
-        <span class="nb-species-credit">Photo: Dianne Clarke</span>
+
+    <!-- 2 -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Neon cuckoo bee" loading="lazy">
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-blue">Electric blue</span>
+          <span class="nb-bee-tag nb-tag-pink">Total cheat</span>
+        </div>
+        <span class="nb-bee-card-name">Neon cuckoo bee</span>
+        <span class="nb-bee-card-sciname">Thyreus nitidulus</span>
+        <p class="nb-bee-card-fact">This bee sneaks into other bees' nests and lays its own eggs there. The host bee raises the cuckoo's babies without knowing! (Hence the name.)</p>
+        <span class="nb-bee-card-credit">Photo: Dianne Clarke</span>
       </div>
     </div>
-    <div class="nb-species-card">
-      <span class="nb-species-img">
-        <img src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Megachile aurifons - leafcutter bee" loading="lazy">
-      </span>
-      <div class="nb-species-meta">
-        <span class="nb-species-name">Megachile aurifons</span>
-        <span class="nb-species-credit">Photo: maxhr54</span>
+
+    <!-- 3 -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Leafcutter bee" loading="lazy">
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-green">Cuts leaves</span>
+          <span class="nb-bee-tag nb-tag-amber">Gold face</span>
+        </div>
+        <span class="nb-bee-card-name">Leafcutter bee</span>
+        <span class="nb-bee-card-sciname">Megachile aurifrons</span>
+        <p class="nb-bee-card-fact">This bee snips perfect circles from leaves with its jaws and rolls them into tiny leaf burritos to wrap its eggs in. If you see neat round holes in your garden leaves, a leafcutter has been busy.</p>
+        <span class="nb-bee-card-credit">Photo: maxhr54</span>
       </div>
     </div>
+
+    <!-- 4 — PLACEHOLDER -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <div class="nb-bee-placeholder" style="background:#E1F5EE;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#085041" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span style="color:#085041;">Add your photo here</span>
+        </div>
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-teal">Metallic green</span>
+          <span class="nb-bee-tag nb-tag-green">Solitary</span>
+        </div>
+        <span class="nb-bee-card-name">Green carpenter bee</span>
+        <span class="nb-bee-card-sciname">Xylocopa aerata</span>
+        <p class="nb-bee-card-fact">One of Australia's most spectacular bees — its body shimmers like a tiny piece of green metal. It bores neat tunnels into soft wood to build its nest.</p>
+        <span class="nb-bee-card-credit">Photo: your photo here</span>
+      </div>
+    </div>
+
+    <!-- 5 — PLACEHOLDER -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <div class="nb-bee-placeholder" style="background:#FAEEDA;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#854F0B" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span style="color:#854F0B;">Add your photo here</span>
+        </div>
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-amber">Stingless</span>
+          <span class="nb-bee-tag nb-tag-amber">Makes honey</span>
+        </div>
+        <span class="nb-bee-card-name">Sugarbag bee</span>
+        <span class="nb-bee-card-sciname">Tetragonula carbonaria</span>
+        <p class="nb-bee-card-fact">One of the few native bees that actually makes honey — and it's delicious. Their nests look like tiny spiral staircases inside. Indigenous Australians have harvested sugarbag honey for thousands of years.</p>
+        <span class="nb-bee-card-credit">Photo: your photo here</span>
+      </div>
+    </div>
+
+    <!-- 6 — PLACEHOLDER -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <div class="nb-bee-placeholder" style="background:#EEEDFE;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#3C3489" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span style="color:#3C3489;">Add your photo here</span>
+        </div>
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-purple">Underground</span>
+          <span class="nb-bee-tag nb-tag-green">Solitary</span>
+        </div>
+        <span class="nb-bee-card-name">Blue-banded bee</span>
+        <span class="nb-bee-card-sciname">Amegilla cingulata</span>
+        <p class="nb-bee-card-fact">Famous for buzz-pollination — it grabs a tomato flower and vibrates so fast (350 times per second!) the pollen shakes right out. Tomato farmers love these bees.</p>
+        <span class="nb-bee-card-credit">Photo: your photo here</span>
+      </div>
+    </div>
+
+    <!-- 7 — PLACEHOLDER -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <div class="nb-bee-placeholder" style="background:#FBEAF0;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#72243E" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span style="color:#72243E;">Add your photo here</span>
+        </div>
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-pink">Resin builder</span>
+          <span class="nb-bee-tag nb-tag-amber">Tropical</span>
+        </div>
+        <span class="nb-bee-card-name">Resin bee</span>
+        <span class="nb-bee-card-sciname">Megachile sp.</span>
+        <p class="nb-bee-card-fact">Instead of leaves or mud, resin bees collect sticky plant sap to build the walls of their nests. Some mix in sand, bark, or even flower petals to get exactly the right texture.</p>
+        <span class="nb-bee-card-credit">Photo: your photo here</span>
+      </div>
+    </div>
+
+    <!-- 8 — PLACEHOLDER -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <div class="nb-bee-placeholder" style="background:#EAF3DE;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#27500A" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span style="color:#27500A;">Add your photo here</span>
+        </div>
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-green">Mud architect</span>
+          <span class="nb-bee-tag nb-tag-teal">Solitary</span>
+        </div>
+        <span class="nb-bee-card-name">Masked bee</span>
+        <span class="nb-bee-card-sciname">Hylaeus sp.</span>
+        <p class="nb-bee-card-fact">The smallest and least bee-looking of all. No fur, no pollen baskets — masked bees swallow pollen to carry it home in their stomach and regurgitate it into their nest cells.</p>
+        <span class="nb-bee-card-credit">Photo: your photo here</span>
+      </div>
+    </div>
+
+    <!-- 9 — PLACEHOLDER -->
+    <div class="nb-bee-card">
+      <div class="nb-bee-card-img-wrap">
+        <div class="nb-bee-placeholder" style="background:#E6F1FB;">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0C447C" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+          <span style="color:#0C447C;">Add your photo here</span>
+        </div>
+      </div>
+      <div class="nb-bee-card-body">
+        <div class="nb-bee-tag-row">
+          <span class="nb-bee-tag nb-tag-blue">Year-round</span>
+          <span class="nb-bee-tag nb-tag-purple">Colonial</span>
+        </div>
+        <span class="nb-bee-card-name">Homalictus bee</span>
+        <span class="nb-bee-card-sciname">Homalictus sp.</span>
+        <p class="nb-bee-card-fact">These tiny bees form small colonies — somewhere between completely solitary and full hive life. Unlike honeybees, they're active all year, even in winter, which makes them incredibly important pollinators.</p>
+        <span class="nb-bee-card-credit">Photo: your photo here</span>
+      </div>
+    </div>
+
   </div>
 </section>
 
 <!-- WORKSHOPS -->
 <section class="nb-section nb-reveal">
   <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Hands-on Learning</p>
-    <h2 class="nb-section-title">Workshops</h2>
+    <p class="nb-section-eyebrow">Workshops</p>
+    <h2 class="nb-section-title">Try these at home <em>or school</em></h2>
   </div>
   <div class="nb-workshops-grid">
     <div class="nb-workshop-card">
       <img src="{{ 'assets/img/beehotel.jpg' | relative_url }}" alt="Native bee hotel made from natural materials">
       <div class="nb-workshop-content">
         <span class="nb-workshop-tag">Workshop 01</span>
-        <h3>Build a Native Bee Hotel</h3>
-        <p>Create cozy homes for native bees using natural materials like bamboo and hollow stems. These hotels give solitary bees safe places to lay their eggs and complete their remarkable life cycle.</p>
+        <h3>Build a bee hotel</h3>
+        <p>Bundle up hollow sticks and bamboo to make a home for solitary bees. They'll move in, lay eggs, and raise their young — right in your backyard.</p>
       </div>
     </div>
     <div class="nb-workshop-card">
       <img src="{{ 'assets/img/seedbombs.jpg' | relative_url }}" alt="Native flower seed bombs">
       <div class="nb-workshop-content">
         <span class="nb-workshop-tag">Workshop 02</span>
-        <h3>Make Native Seed Bombs</h3>
-        <p>Mix clay, soil, and native flower seeds to create seed bombs that grow into beautiful, bee-friendly gardens. A simple, tactile craft with a lasting impact on your local ecosystem.</p>
+        <h3>Make seed bombs</h3>
+        <p>Mix clay, soil, and native flower seeds into a ball — then throw it at a patch of bare dirt. Water it and wait. A bee garden grows from a lump of mud.</p>
       </div>
     </div>
   </div>
@@ -528,43 +729,43 @@ nav_order: 3
 <!-- INSTRUCTIONS -->
 <section class="nb-instructions nb-reveal">
   <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Field Guide</p>
+    <p class="nb-section-eyebrow">Field guide</p>
     <h2 class="nb-section-title">How to use your workshop kit</h2>
-    <p class="nb-instructions-sub">A practical guide to getting the best results from your bee hotel and seed bombs.</p>
+    <p class="nb-instructions-sub">Simple steps to get the best out of your bee hotel and seed bombs.</p>
   </div>
   <div class="nb-instructions-grid">
 
     <div>
       <div class="nb-inst-header">
         <p class="nb-inst-label">Bee Hotel</p>
-        <h3>Installing your hotel</h3>
+        <h3>Setting up your hotel</h3>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">1</span>
         <div class="nb-step-body">
           <strong>Choose a sheltered, dry spot under cover</strong>
-          <p>A verandah or under a tree branch works well — anything that shields the hotel from rain and harsh weather.</p>
+          <p>Find a location like a verandah or under a tree branch that protects the hotel from rain and harsh weather.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">2</span>
         <div class="nb-step-body">
           <strong>Position 1–2 metres above ground, facing east or north-east</strong>
-          <p>This height protects from ground predators; the eastern orientation provides warming morning sun.</p>
+          <p>This height keeps the hotel safe from ground predators and the eastern orientation provides gentle morning sun.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">3</span>
         <div class="nb-step-body">
-          <strong>Secure tightly — no wobbling</strong>
-          <p>The structure shouldn't swing in the wind, as movement disturbs nesting bees.</p>
+          <strong>Make sure the hotel is secured tightly</strong>
+          <p>The structure shouldn't wobble or swing in the wind, as this can disturb nesting bees.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">4</span>
         <div class="nb-step-body">
-          <strong>Leave it undisturbed</strong>
-          <p>Don't open, shake, or disassemble the hotel once installed. Let the bees nest peacefully through their full life cycle.</p>
+          <strong>Do not attempt to open, shake, or disassemble the hotel</strong>
+          <p>Once installed, leave it undisturbed so the bees can nest peacefully and complete their life cycle.</p>
         </div>
       </div>
     </div>
@@ -577,114 +778,72 @@ nav_order: 3
       <div class="nb-step">
         <span class="nb-step-num">1</span>
         <div class="nb-step-body">
-          <strong>Choose bare soil or a pot</strong>
-          <p>Avoid established grasses — seedlings shouldn't have to compete for space and nutrients.</p>
+          <strong>Choose a bare soil spot in your garden or use a pot</strong>
+          <p>Avoid planting in established grasses so seedlings don't have to compete for space and nutrients.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">2</span>
         <div class="nb-step-body">
-          <strong>Place on the surface or press in lightly</strong>
-          <p>Don't bury it deeply — seeds need access to light and air to germinate properly.</p>
+          <strong>Place the seed bomb on the soil surface or press in lightly</strong>
+          <p>Don't bury it deeply — the seeds need access to light and air to germinate properly.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">3</span>
         <div class="nb-step-body">
-          <strong>Water well and keep moist while germinating</strong>
-          <p>Consistently moist but not waterlogged during the germination period.</p>
+          <strong>Water well and don't let dry out once germinating</strong>
+          <p>Keep the soil consistently moist but not waterlogged during the germination period.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">4</span>
         <div class="nb-step-body">
-          <strong>Allow semi-drying once established</strong>
-          <p>Let the soil semi-dry between waterings to encourage deep root growth.</p>
+          <strong>Water well if steady rainfall is not forecast</strong>
+          <p>Until plants are established, try to allow soil to semi-dry between waterings to encourage deep root growth.</p>
         </div>
       </div>
       <div class="nb-step">
         <span class="nb-step-num">5</span>
         <div class="nb-step-body">
           <strong>Best used within 6 months</strong>
-          <p>Seed viability decreases over time — plant your bombs relatively soon after receiving them.</p>
+          <p>Seed viability decreases over time, so plant your seed bombs relatively soon after receiving them.</p>
         </div>
       </div>
     </div>
 
     <div class="nb-seed-species">
-      <h4>Native flower species in your seed bomb</h4>
-      <ul class="nb-seed-list">
-        <li>Golden Cluster Everlasting</li>
-        <li>Swan River Daisy</li>
-        <li>Pink &amp; White Everlasting Daisy</li>
-        <li>Dwarf Strawflower</li>
-        <li>Billy Buttons</li>
-        <li>Red &amp; Yellow Kangaroo Paw</li>
-        <li>Blue Lace Flower</li>
-        <li>Native Wisteria</li>
-        <li>Coral Creeper</li>
-        <li>Ashburton Pea</li>
-      </ul>
+      <h4>Native flowers in your seed bomb</h4>
+      <div class="nb-seed-tags">
+        <span class="nb-seed-tag">Golden cluster everlasting</span>
+        <span class="nb-seed-tag">Swan River daisy</span>
+        <span class="nb-seed-tag">Pink &amp; white everlasting daisy</span>
+        <span class="nb-seed-tag">Dwarf strawflower</span>
+        <span class="nb-seed-tag">Billy buttons</span>
+        <span class="nb-seed-tag">Red &amp; yellow kangaroo paw</span>
+        <span class="nb-seed-tag">Blue lace flower</span>
+        <span class="nb-seed-tag">Native wisteria</span>
+        <span class="nb-seed-tag">Coral creeper</span>
+        <span class="nb-seed-tag">Ashburton pea</span>
+      </div>
     </div>
 
-  </div>
-</section>
-
-<!-- FACTS -->
-<section class="nb-section nb-reveal">
-  <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Natural History</p>
-    <h2 class="nb-section-title">Remarkable bee <em>facts</em></h2>
-  </div>
-  <div class="nb-facts-grid">
-    <div class="nb-fact-card">
-      <div class="nb-fact-marker">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#FAF6ED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
-        </svg>
-      </div>
-      <h4>Tiny Architects</h4>
-      <p>Native bees build extraordinary nests in hollow stems, holes in wood, and underground burrows — each species with its own ingenious construction method.</p>
-    </div>
-    <div class="nb-fact-card">
-      <div class="nb-fact-marker">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#FAF6ED" stroke-width="2" stroke-linecap="round">
-          <circle cx="12" cy="12" r="10"/>
-          <path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/>
-        </svg>
-      </div>
-      <h4>Buzz Pollination</h4>
-      <p>Some native bees are specialist "buzz pollinators" — they grip flowers and vibrate their flight muscles at a precise frequency, shaking loose pollen other insects can't reach.</p>
-    </div>
-    <div class="nb-fact-card">
-      <div class="nb-fact-marker">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#FAF6ED" stroke-width="2" stroke-linecap="round">
-          <circle cx="12" cy="12" r="5"/>
-          <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
-          <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
-        </svg>
-      </div>
-      <h4>A Rainbow of Colours</h4>
-      <p>Native bees come in spectacular colours — metallic green, electric blue, fuzzy orange, and intricate stripes. Australia's 2,000+ species are among the world's most diverse.</p>
-    </div>
   </div>
 </section>
 
 <!-- LINKS -->
 <section class="nb-links nb-reveal">
-  <h3 class="nb-links-heading">Go deeper —<br><em>learn more</em></h3>
+  <h3 class="nb-links-heading">Want to go deeper?<br><em>Start here.</em></h3>
   <ul class="nb-links-list">
     <li>
       <a href="https://www.aussiebee.com.au/beesinyourarea.html/" target="_blank" rel="noopener">
-        Which native bees are in your area? — Aussie Bees
+        Which native bees live in your area? — Aussie Bees
         <span class="nb-link-arrow">→</span>
       </a>
     </li>
     <li>
       <a href="https://www.krg.nsw.gov.au/Environment/Your-local-environment/Wildlife/Living-with-wildlife/Bee-hotels" target="_blank" rel="noopener">
-        Bee Hotels — Ku-ring-gai Council
+        Bee hotels — Ku-ring-gai Council
         <span class="nb-link-arrow">→</span>
       </a>
     </li>
