@@ -606,11 +606,6 @@ nav_order: 3
       <div class="nb-bee-card-img-wrap">
         <img class="nb-bee-card-img" src="{{ 'assets/img/lasioglossumhemichalceum.jpg' | relative_url }}" alt="Sweat bee" loading="lazy">
       </div>
-      <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-blue">Year-round</span>
-          <span class="nb-bee-tag nb-tag-purple">Colonial</span>
-        </div>
         <span class="nb-bee-card-name">Sweat bee</span>
         <span class="nb-bee-card-sciname">Lasioglossum hemichalceum</span>
         <p class="nb-bee-card-fact">These tiny bees form small colonies — somewhere between completely solitary and full hive life. Unlike honeybees, they're active all year, even in winter, which makes them incredibly important pollinators.</p>
@@ -625,7 +620,7 @@ nav_order: 3
 <section class="nb-section nb-reveal">
   <div class="nb-section-header">
 
-    <h2 class="nb-section-title">Try these at home <em>or school</em></h2>
+    <h2 class="nb-section-title">Workshops</h2>
   </div>
   <div class="nb-workshops-grid">
     <div class="nb-workshop-card">
