@@ -768,6 +768,12 @@ nav_order: 3
         <span class="nb-link-arrow">→</span>
       </a>
     </li>
+    <li>
+      <a href="https://www.inaturalist.org/projects/australian-native-bees-nsw-and-act" target="_blank" rel="noopener">
+        Australian Native Bees - iNaturalist
+        <span class="nb-link-arrow">→</span>
+      </a>
+    </li>
   </ul>
 </section>
 
