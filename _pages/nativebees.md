@@ -493,9 +493,9 @@ nav_order: 3
 <!-- BEE GALLERY: species + facts merged -->
 <section class="nb-section nb-reveal">
   <div class="nb-section-header">
-
     <h2 class="nb-section-title">Let's meet <em>some of them</em></h2>
   </div>
+
   <div class="nb-bee-grid">
 
     <!-- 1 -->
@@ -506,7 +506,7 @@ nav_order: 3
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Teddy bear bee</span>
         <span class="nb-bee-card-sciname">Amegilla bombiformis</span>
-        <p class="nb-bee-card-fact">This one looks like a flying furball. The thick orange fur isn't just cute — it traps pollen like velcro so the bee carries more with every flower visit.</p>
+        <p class="nb-bee-card-fact">A true flying furball. Its dense orange hair helps trap and carry pollen between flowers.</p>
         <span class="nb-bee-card-credit">Photo: austenarmstrong on iNaturalist</span>
       </div>
     </div>
@@ -519,7 +519,7 @@ nav_order: 3
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Neon cuckoo bee</span>
         <span class="nb-bee-card-sciname">Thyreus nitidulus</span>
-        <p class="nb-bee-card-fact">This bee sneaks into other bees' nests and lays its own eggs there. The host bee raises the cuckoo's babies without knowing! (Hence the name.)</p>
+        <p class="nb-bee-card-fact">A brood parasite — it lays its eggs in other bees’ nests and lets the host do the hard work.</p>
         <span class="nb-bee-card-credit">Photo: lroganentsocvic on iNaturalist</span>
       </div>
     </div>
@@ -532,12 +532,12 @@ nav_order: 3
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Leafcutter bee</span>
         <span class="nb-bee-card-sciname">Megachile maculariformis</span>
-        <p class="nb-bee-card-fact">This bee snips perfect circles from leaves with its jaws and rolls them into tiny leaf burritos to wrap its eggs in. If you see neat round holes in your garden leaves, a leafcutter has been busy.</p>
+        <p class="nb-bee-card-fact">Cuts neat circles from leaves and rolls them into protective cells for its eggs.</p>
         <span class="nb-bee-card-credit">Photo: debtaylor142 on iNaturalist</span>
       </div>
     </div>
 
-    <!-- 4 — PLACEHOLDER -->
+    <!-- 4 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
         <img class="nb-bee-card-img" src="{{ 'assets/img/xylocopaaerata.jpg' | relative_url }}" alt="Green carpenter bee" loading="lazy">
@@ -545,12 +545,12 @@ nav_order: 3
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Green carpenter bee</span>
         <span class="nb-bee-card-sciname">Xylocopa aerata</span>
-        <p class="nb-bee-card-fact">One of Australia's most spectacular bees — its body shimmers like a tiny piece of green metal. It bores neat tunnels into soft wood to build its nest.</p>
+        <p class="nb-bee-card-fact">A metallic green standout that nests by tunnelling into soft or decaying wood.</p>
         <span class="nb-bee-card-credit">Photo: drickett on iNaturalist</span>
       </div>
     </div>
 
-    <!-- 5 — PLACEHOLDER -->
+    <!-- 5 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
         <img class="nb-bee-card-img" src="{{ 'assets/img/tetragonulacarbonaria.jpg' | relative_url }}" alt="Sugarbag bee" loading="lazy">
@@ -558,57 +558,59 @@ nav_order: 3
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Sugarbag bee</span>
         <span class="nb-bee-card-sciname">Tetragonula carbonaria</span>
-        <p class="nb-bee-card-fact">One of the few native bees that actually makes honey — and it's delicious. Their nests look like tiny spiral staircases inside. Indigenous Australians have harvested sugarbag honey for thousands of years.</p>
+        <p class="nb-bee-card-fact">A stingless bee that produces honey, stored in distinctive spiral brood structures.</p>
         <span class="nb-bee-card-credit">Photo: katsinabox on iNaturalist</span>
       </div>
     </div>
 
-    <!-- 6 — PLACEHOLDER -->
+    <!-- 6 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-                <img class="nb-bee-card-img" src="{{ 'assets/img/amegillacingulata.jpg' | relative_url }}" alt="Blue-banded bee" loading="lazy">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/amegillacingulata.jpg' | relative_url }}" alt="Blue-banded bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Blue-banded bee</span>
         <span class="nb-bee-card-sciname">Amegilla cingulata</span>
-        <p class="nb-bee-card-fact">Famous for buzz-pollination — it grabs a tomato flower and vibrates so fast (350 times per second!) the pollen shakes right out. Tomato farmers love these bees.</p>
+        <p class="nb-bee-card-fact">Uses buzz pollination — vibrating flowers to release pollen, especially in crops like tomatoes.</p>
         <span class="nb-bee-card-credit">Photo: jenny_thynne on iNaturalist</span>
       </div>
     </div>
 
-    <!-- 7 — PLACEHOLDER -->
+    <!-- 7 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-                <img class="nb-bee-card-img" src="{{ 'assets/img/megachilemystaceana.jpg' | relative_url }}" alt="Fire-tailed resin bee" loading="lazy">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/megachilemystaceana.jpg' | relative_url }}" alt="Fire-tailed resin bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Fire-tailed resin bee</span>
         <span class="nb-bee-card-sciname">Megachile mystaceana</span>
-        <p class="nb-bee-card-fact">Instead of leaves or mud, resin bees collect sticky plant sap to build the walls of their nests. Some mix in sand, bark, or even flower petals to get exactly the right texture.</p>
+        <p class="nb-bee-card-fact">Builds nests using plant resins, sometimes mixed with sand or fibres for strength.</p>
         <span class="nb-bee-card-credit">Photo: pennytaylor on iNaturalist</span>
       </div>
     </div>
 
-    <!-- 8 — PLACEHOLDER -->
+    <!-- 8 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
         <img class="nb-bee-card-img" src="{{ 'assets/img/hylaeusnubilosus.jpg' | relative_url }}" alt="Masked bee" loading="lazy">
       </div>
+      <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Masked bee</span>
         <span class="nb-bee-card-sciname">Hylaeus nubilosus</span>
-        <p class="nb-bee-card-fact">The smallest and least bee-looking of all. No fur, no pollen baskets — masked bees swallow pollen to carry it home in their stomach and regurgitate it into their nest cells.</p>
+        <p class="nb-bee-card-fact">Wasp-like and nearly hairless — it carries pollen internally and deposits it in its nest.</p>
         <span class="nb-bee-card-credit">Photo: sockrosma on iNaturalist</span>
       </div>
     </div>
 
-    <!-- 9 — PLACEHOLDER -->
+    <!-- 9 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
         <img class="nb-bee-card-img" src="{{ 'assets/img/lasioglossumhemichalceum.jpg' | relative_url }}" alt="Sweat bee" loading="lazy">
       </div>
+      <div class="nb-bee-card-body">
         <span class="nb-bee-card-name">Sweat bee</span>
         <span class="nb-bee-card-sciname">Lasioglossum hemichalceum</span>
-        <p class="nb-bee-card-fact">These tiny bees form small colonies — somewhere between completely solitary and full hive life. Unlike honeybees, they're active all year, even in winter, which makes them incredibly important pollinators.</p>
+        <p class="nb-bee-card-fact">Forms small, flexible colonies — more social than solitary bees, but simpler than honeybee hives.</p>
         <span class="nb-bee-card-credit">Photo: rewildingsuburbia on iNaturalist</span>
       </div>
     </div>
