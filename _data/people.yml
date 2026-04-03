@@ -1,6 +1,6 @@
 - name: Dr. Kenya Fernandes
   role: Group Leader
-  image: /assets/img/kenya_fernandes.jpg
+  image: /assets/img/kenya_fernandes1.jpg
   tag: current
 
 - name: Jasmin Li
@@ -10,14 +10,14 @@
   image: /assets/img/jasmin_li.jpg
   tag: current
 
-- name: Evie Clay
+- name: Evangeline Clay
   role: PhD Student
   project: Uncovering the antifungal potential of CBD derivatives
   supervisors: Amy Cain, Hue Dinh, Kenya Fernandes
   image: /assets/img/evie_clay.jpg
   tag: current
 
-- name: Kat Schell
+- name: Kathleen Schell
   role: PhD Student
   project: Investigating the gut therapeutic potential of Australian honey as a prebiotic and anti-inflammatory
   supervisors: Erin Shanahan, Nural Cokcetin, Dee Carter, Kenya Fernandes
@@ -77,7 +77,7 @@
   image: /assets/img/andrew_dong.jpg
   tag: current
   
-- name: Julie Lim
+- name: Julianne Lim
   role: Senior Research Officer (2023-2025)
   image: /assets/img/julie_lim.jpg
   tag: past
