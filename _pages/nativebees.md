@@ -482,46 +482,18 @@ nav_order: 3
 <section class="nb-hero">
   <div class="nb-hero-bg"></div>
   <div class="nb-hero-text">
-    <p class="nb-eyebrow">Australia's native bees</p>
+
     <h1>There are over 2,000 native bee species<br><em>in Australia.</em></h1>
     <p class="nb-hero-sub">Most live alone, don't make honey, and look nothing like a honeybee.</p>
 
   </div>
-  <div class="nb-hero-bee">
-    <svg width="260" height="260" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g class="nb-bee-group">
-        <g class="nb-wing-top">
-          <ellipse cx="115" cy="130" rx="52" ry="26" fill="rgba(240,232,208,0.18)" stroke="rgba(212,145,32,0.5)" stroke-width="1.5"/>
-          <ellipse cx="205" cy="130" rx="52" ry="26" fill="rgba(240,232,208,0.18)" stroke="rgba(212,145,32,0.5)" stroke-width="1.5"/>
-        </g>
-        <g class="nb-wing-bot">
-          <ellipse cx="118" cy="152" rx="38" ry="18" fill="rgba(240,232,208,0.12)" stroke="rgba(212,145,32,0.35)" stroke-width="1"/>
-          <ellipse cx="202" cy="152" rx="38" ry="18" fill="rgba(240,232,208,0.12)" stroke="rgba(212,145,32,0.35)" stroke-width="1"/>
-        </g>
-        <ellipse cx="160" cy="188" rx="44" ry="54" fill="#3A6B4F" stroke="#1B3527" stroke-width="2"/>
-        <path d="M116 178 Q160 172 204 178 Q204 188 204 188 Q160 182 116 188 Z" fill="#D49120" opacity="0.9"/>
-        <path d="M117 200 Q160 194 203 200 Q203 210 203 210 Q160 204 117 210 Z" fill="#D49120" opacity="0.9"/>
-        <path d="M138 228 Q160 244 182 228" stroke="#1B3527" stroke-width="1.5" fill="none"/>
-        <ellipse cx="160" cy="150" rx="26" ry="20" fill="#275238" stroke="#1B3527" stroke-width="2"/>
-        <path d="M144 147 Q150 142 160 143 Q170 142 176 147" stroke="rgba(212,145,32,0.5)" stroke-width="1" fill="none"/>
-        <circle cx="160" cy="126" r="18" fill="#275238" stroke="#1B3527" stroke-width="2"/>
-        <circle cx="153" cy="123" r="4.5" fill="#D49120" opacity="0.9"/>
-        <circle cx="167" cy="123" r="4.5" fill="#D49120" opacity="0.9"/>
-        <circle cx="153" cy="122" r="2" fill="#1B3527"/>
-        <circle cx="167" cy="122" r="2" fill="#1B3527"/>
-        <path d="M154 109 Q148 92 138 85" stroke="rgba(212,145,32,0.8)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-        <path d="M166 109 Q172 92 182 85" stroke="rgba(212,145,32,0.8)" stroke-width="1.5" fill="none" stroke-linecap="round"/>
-        <circle cx="137" cy="84" r="3.5" fill="#D49120"/>
-        <circle cx="183" cy="84" r="3.5" fill="#D49120"/>
-      </g>
-    </svg>
-  </div>
+
 </section>
 
 <!-- BEE GALLERY: species + facts merged -->
 <section class="nb-section nb-reveal">
   <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Species guide</p>
+
     <h2 class="nb-section-title">Let's meet <em>some of them</em></h2>
   </div>
   <div class="nb-bee-grid">
@@ -529,171 +501,120 @@ nav_order: 3
     <!-- 1 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <img class="nb-bee-card-img" src="{{ 'assets/img/amegilla.jpg' | relative_url }}" alt="Teddy bear bee" loading="lazy">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/amegillabombiformis.jpg' | relative_url }}" alt="Teddy bear bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-amber">Fluffy &amp; orange</span>
-          <span class="nb-bee-tag nb-tag-green">Solitary</span>
-        </div>
         <span class="nb-bee-card-name">Teddy bear bee</span>
         <span class="nb-bee-card-sciname">Amegilla bombiformis</span>
         <p class="nb-bee-card-fact">This one looks like a flying furball. The thick orange fur isn't just cute — it traps pollen like velcro so the bee carries more with every flower visit.</p>
-        <span class="nb-bee-card-credit">Photo: notesafield</span>
+        <span class="nb-bee-card-credit">Photo: austenarmstrong on iNaturalist</span>
       </div>
     </div>
 
     <!-- 2 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <img class="nb-bee-card-img" src="{{ 'assets/img/thyreus.jpg' | relative_url }}" alt="Neon cuckoo bee" loading="lazy">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/thyreusnitidulus.jpg' | relative_url }}" alt="Neon cuckoo bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-blue">Electric blue</span>
-          <span class="nb-bee-tag nb-tag-pink">Total cheat</span>
-        </div>
         <span class="nb-bee-card-name">Neon cuckoo bee</span>
         <span class="nb-bee-card-sciname">Thyreus nitidulus</span>
         <p class="nb-bee-card-fact">This bee sneaks into other bees' nests and lays its own eggs there. The host bee raises the cuckoo's babies without knowing! (Hence the name.)</p>
-        <span class="nb-bee-card-credit">Photo: Dianne Clarke</span>
+        <span class="nb-bee-card-credit">Photo: lroganentsocvic on iNaturalist</span>
       </div>
     </div>
 
     <!-- 3 -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <img class="nb-bee-card-img" src="{{ 'assets/img/megachile.jpg' | relative_url }}" alt="Leafcutter bee" loading="lazy">
+        <img class="nb-bee-card-img" src="{{ 'assets/img/megachilemaculariformis.jpg' | relative_url }}" alt="Leafcutter bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-green">Cuts leaves</span>
-          <span class="nb-bee-tag nb-tag-amber">Gold face</span>
-        </div>
         <span class="nb-bee-card-name">Leafcutter bee</span>
-        <span class="nb-bee-card-sciname">Megachile aurifrons</span>
+        <span class="nb-bee-card-sciname">Megachile maculariformis</span>
         <p class="nb-bee-card-fact">This bee snips perfect circles from leaves with its jaws and rolls them into tiny leaf burritos to wrap its eggs in. If you see neat round holes in your garden leaves, a leafcutter has been busy.</p>
-        <span class="nb-bee-card-credit">Photo: maxhr54</span>
+        <span class="nb-bee-card-credit">Photo: debtaylor142 on iNaturalist</span>
       </div>
     </div>
 
     <!-- 4 — PLACEHOLDER -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <div class="nb-bee-placeholder" style="background:#E1F5EE;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#085041" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <span style="color:#085041;">Add your photo here</span>
-        </div>
+        <img class="nb-bee-card-img" src="{{ 'assets/img/xylocopaaerata.jpg' | relative_url }}" alt="Green carpenter bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-teal">Metallic green</span>
-          <span class="nb-bee-tag nb-tag-green">Solitary</span>
-        </div>
         <span class="nb-bee-card-name">Green carpenter bee</span>
         <span class="nb-bee-card-sciname">Xylocopa aerata</span>
         <p class="nb-bee-card-fact">One of Australia's most spectacular bees — its body shimmers like a tiny piece of green metal. It bores neat tunnels into soft wood to build its nest.</p>
-        <span class="nb-bee-card-credit">Photo: your photo here</span>
+        <span class="nb-bee-card-credit">Photo: drickett on iNaturalist</span>
       </div>
     </div>
 
     <!-- 5 — PLACEHOLDER -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <div class="nb-bee-placeholder" style="background:#FAEEDA;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#854F0B" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <span style="color:#854F0B;">Add your photo here</span>
-        </div>
+        <img class="nb-bee-card-img" src="{{ 'assets/img/tetragonulacarbonaria.jpg' | relative_url }}" alt="Sugarbag bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-amber">Stingless</span>
-          <span class="nb-bee-tag nb-tag-amber">Makes honey</span>
-        </div>
         <span class="nb-bee-card-name">Sugarbag bee</span>
         <span class="nb-bee-card-sciname">Tetragonula carbonaria</span>
         <p class="nb-bee-card-fact">One of the few native bees that actually makes honey — and it's delicious. Their nests look like tiny spiral staircases inside. Indigenous Australians have harvested sugarbag honey for thousands of years.</p>
-        <span class="nb-bee-card-credit">Photo: your photo here</span>
+        <span class="nb-bee-card-credit">Photo: katsinabox on iNaturalist</span>
       </div>
     </div>
 
     <!-- 6 — PLACEHOLDER -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <div class="nb-bee-placeholder" style="background:#EEEDFE;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#3C3489" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <span style="color:#3C3489;">Add your photo here</span>
-        </div>
+                <img class="nb-bee-card-img" src="{{ 'assets/img/amegillacingulata.jpg' | relative_url }}" alt="Blue-banded bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-purple">Underground</span>
-          <span class="nb-bee-tag nb-tag-green">Solitary</span>
-        </div>
         <span class="nb-bee-card-name">Blue-banded bee</span>
         <span class="nb-bee-card-sciname">Amegilla cingulata</span>
         <p class="nb-bee-card-fact">Famous for buzz-pollination — it grabs a tomato flower and vibrates so fast (350 times per second!) the pollen shakes right out. Tomato farmers love these bees.</p>
-        <span class="nb-bee-card-credit">Photo: your photo here</span>
+        <span class="nb-bee-card-credit">Photo: jenny_thynne on iNaturalist</span>
       </div>
     </div>
 
     <!-- 7 — PLACEHOLDER -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <div class="nb-bee-placeholder" style="background:#FBEAF0;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#72243E" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <span style="color:#72243E;">Add your photo here</span>
-        </div>
+                <img class="nb-bee-card-img" src="{{ 'assets/img/megachilemystaceana.jpg' | relative_url }}" alt="Fire-tailed resin bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-pink">Resin builder</span>
-          <span class="nb-bee-tag nb-tag-amber">Tropical</span>
-        </div>
-        <span class="nb-bee-card-name">Resin bee</span>
-        <span class="nb-bee-card-sciname">Megachile sp.</span>
+        <span class="nb-bee-card-name">Fire-tailed resin bee</span>
+        <span class="nb-bee-card-sciname">Megachile mystaceana</span>
         <p class="nb-bee-card-fact">Instead of leaves or mud, resin bees collect sticky plant sap to build the walls of their nests. Some mix in sand, bark, or even flower petals to get exactly the right texture.</p>
-        <span class="nb-bee-card-credit">Photo: your photo here</span>
+        <span class="nb-bee-card-credit">Photo: pennytaylor on iNaturalist</span>
       </div>
     </div>
 
     <!-- 8 — PLACEHOLDER -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <div class="nb-bee-placeholder" style="background:#EAF3DE;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#27500A" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <span style="color:#27500A;">Add your photo here</span>
-        </div>
+        <img class="nb-bee-card-img" src="{{ 'assets/img/hylaeusnubilosus.jpg' | relative_url }}" alt="Masked bee" loading="lazy">
       </div>
-      <div class="nb-bee-card-body">
-        <div class="nb-bee-tag-row">
-          <span class="nb-bee-tag nb-tag-green">Mud architect</span>
-          <span class="nb-bee-tag nb-tag-teal">Solitary</span>
-        </div>
         <span class="nb-bee-card-name">Masked bee</span>
-        <span class="nb-bee-card-sciname">Hylaeus sp.</span>
+        <span class="nb-bee-card-sciname">Hylaeus nubilosus</span>
         <p class="nb-bee-card-fact">The smallest and least bee-looking of all. No fur, no pollen baskets — masked bees swallow pollen to carry it home in their stomach and regurgitate it into their nest cells.</p>
-        <span class="nb-bee-card-credit">Photo: your photo here</span>
+        <span class="nb-bee-card-credit">Photo: sockrosma on iNaturalist</span>
       </div>
     </div>
 
     <!-- 9 — PLACEHOLDER -->
     <div class="nb-bee-card">
       <div class="nb-bee-card-img-wrap">
-        <div class="nb-bee-placeholder" style="background:#E6F1FB;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0C447C" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
-          <span style="color:#0C447C;">Add your photo here</span>
-        </div>
+        <img class="nb-bee-card-img" src="{{ 'assets/img/lasioglossumhemichalceum.jpg' | relative_url }}" alt="Sweat bee" loading="lazy">
       </div>
       <div class="nb-bee-card-body">
         <div class="nb-bee-tag-row">
           <span class="nb-bee-tag nb-tag-blue">Year-round</span>
           <span class="nb-bee-tag nb-tag-purple">Colonial</span>
         </div>
-        <span class="nb-bee-card-name">Homalictus bee</span>
-        <span class="nb-bee-card-sciname">Homalictus sp.</span>
+        <span class="nb-bee-card-name">Sweat bee</span>
+        <span class="nb-bee-card-sciname">Lasioglossum hemichalceum</span>
         <p class="nb-bee-card-fact">These tiny bees form small colonies — somewhere between completely solitary and full hive life. Unlike honeybees, they're active all year, even in winter, which makes them incredibly important pollinators.</p>
-        <span class="nb-bee-card-credit">Photo: your photo here</span>
+        <span class="nb-bee-card-credit">Photo: rewildingsuburbia on iNaturalist</span>
       </div>
     </div>
 
@@ -703,7 +624,7 @@ nav_order: 3
 <!-- WORKSHOPS -->
 <section class="nb-section nb-reveal">
   <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Workshops</p>
+
     <h2 class="nb-section-title">Try these at home <em>or school</em></h2>
   </div>
   <div class="nb-workshops-grid">
@@ -729,7 +650,7 @@ nav_order: 3
 <!-- INSTRUCTIONS -->
 <section class="nb-instructions nb-reveal">
   <div class="nb-section-header">
-    <p class="nb-section-eyebrow">Field guide</p>
+
     <h2 class="nb-section-title">How to use your workshop kit</h2>
     <p class="nb-instructions-sub">Simple steps to get the best out of your bee hotel and seed bombs.</p>
   </div>
@@ -833,7 +754,7 @@ nav_order: 3
 
 <!-- LINKS -->
 <section class="nb-links nb-reveal">
-  <h3 class="nb-links-heading">Want to go deeper?<br><em>Start here.</em></h3>
+  <h3 class="nb-links-heading"><em>Learn more</em></h3>
   <ul class="nb-links-list">
     <li>
       <a href="https://www.aussiebee.com.au/beesinyourarea.html/" target="_blank" rel="noopener">
